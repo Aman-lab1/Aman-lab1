@@ -57,7 +57,6 @@ A growing collection of Arduino-based experiments — sensors, actuators, displa
 ![VS Code](https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-LLM-black?style=for-the-badge&logo=ollama&logoColor=white)
-![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 
 </div>
 
@@ -65,7 +64,7 @@ A growing collection of Arduino-based experiments — sensors, actuators, displa
 `Circuit Design` · `LDR Sensors` · `Relay Modules` · `Arduino Uno` · `Breadboard Prototyping`
 
 **Software Side:**
-`Python` · `Modular Architecture` · `LLM Integration` · `Intent Detection` · `JSON Memory Systems`
+`Python` · `Modular Architecture` · `LLM Integration` · `Intent Detection` 
 
 ---
 
@@ -80,7 +79,9 @@ A growing collection of Arduino-based experiments — sensors, actuators, displa
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff9800&currStreakLabel=58a6ff)
+![Aman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aman-lab1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aman-lab1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
+![Visitor Count](https://komarev.com/ghpvc/?username=Aman-lab1&color=58a6ff&style=flat-square&label=Profile+Views)
 
 </div>
 
@@ -94,8 +95,6 @@ A growing collection of Arduino-based experiments — sensors, actuators, displa
 🔄  Finish Rexy Phase 4 — Ollama LLM Integration
 ⏳  Rexy Phase 5 → Plugin Interface & Test Harness
 ⏳  Arduino intermediate series (sensors + displays)
-⏳  Dive deeper into Signal Processing & Control Systems
-⏳  Bridge the gap → AI + Embedded Systems (Edge AI)
 🚀  Long term → Work at the intersection of hardware intelligence
 ```
 
