@@ -1,117 +1,188 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Hey,%20I'm%20Aman%20👋&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=EEE%20Student%20%7C%20Builder%20%7C%20Circuit%20Enthusiast&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Hey,%20I'm%20Aman%20👋&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=EEE%20Student%20|%20AI%20Builder%20|%20Embedded%20Systems&descAlignY=58&descSize=18" width="100%"/>
 
 </div>
 
 ---
 
-## 🌌 Who Am I?
+# 🌌 About Me
 
-I'm **Aman** — an Electrical & Electronics Engineering student at **Ahmedabad University**, navigating the beautiful intersection of *hardware and software*. I believe that a circuit board and a line of code are really just the same idea wearing different clothes — both are instructions to the universe about how energy should flow.
+I'm **Aman**, an Electrical & Electronics Engineering student at **Ahmedabad University** passionate about building systems where **software meets hardware**.
 
-I'm the kind of person who gets genuinely excited about why a capacitor charges the way it does, and then immediately wonders if that behavior can be simulated in Python. That curiosity is what keeps me up at night (along with debugging, obviously).
+I'm fascinated by intelligent machines—from embedded electronics to AI assistants—and enjoy designing projects that combine Python, electronics, automation, and modern AI.
+
+Rather than choosing between hardware and software, I'm learning to speak both languages.
 
 ---
 
-## ⚡ What I'm About
+# ⚡ Currently
 
+```text
+🎓 B.Tech in Electrical & Electronics Engineering
+🤖 Building → Rexy (Personal AI Assistant)
+🛠️ Designing → Desk Buddy AI Robot
+🌱 Learning → Embedded Systems, AI, Edge Computing
+💡 Interested in → Robotics • Embedded AI • System Design
 ```
-🎓  B.Tech in EEE @ Ahmedabad University
-🔭  Currently building → Rexy (Personal AI Assistant, Python)
-🔌  Hardware obsession → Circuits, Arduino, Embedded Systems
-🧠  Learning → Calculus, Differential Equations, Data Science
-🌱  Philosophy → Build first. Understand deeper. Repeat.
-💡  Superpower → Turning "how does this work?" into actual projects
-```
 
 ---
 
-## 🛠️ What I Build
+# 🚀 Featured Projects
 
-### 🤖 Rexy — Personal AI Assistant *(In Progress)*
-A modular, safety-first AI assistant built from scratch in Python.
-Not just another chatbot — Rexy follows a strict **THINK → VERIFY → EXECUTE** pipeline before doing anything, making it one of the more thoughtfully-architected personal projects you'll see from an EEE freshman. Powered by Ollama LLMs under the hood.
+## 🤖 Rexy — Personal AI Assistant
 
-> *"Most people build AI assistants to show off. I built Rexy to understand what intelligence actually means — and to have something useful while I figure it out."*
+A modular AI assistant built entirely in Python with a safety-first architecture.
+
+### Features
+
+- THINK → VERIFY → EXECUTE pipeline
+- Long-term memory
+- Plugin architecture
+- Intent detection
+- Local & cloud LLM support
+- Voice capabilities
+- Modular architecture
+- FastAPI backend
+- WebSocket communication
+
+> Building an assistant that behaves responsibly instead of simply responding quickly.
 
 ---
 
-### 💡 Automatic Street Light *(Completed — Winter Arc Project)*
-My first hands-on electronics project. An LDR-based automatic street light that switches on at dusk and off at dawn — no human intervention needed. Simple? Yes. Satisfying? Absolutely.
-This was the project that confirmed: *I'm in the right field.*
+## 🪴 Desk Buddy
+
+An AI-powered robotic desktop companion currently under development.
+
+A small autonomous robot featuring:
+
+- ESP32-based control
+- Differential drive
+- Ultrasonic obstacle detection
+- Touch interaction
+- AI-powered conversations
+- Phone docking system
+- Future autonomous navigation
+
+This project combines robotics, embedded systems, AI, and mechanical design into one platform.
 
 ---
 
-### 🔧 Arduino Projects *(Ongoing Series)*
-A growing collection of Arduino-based experiments — sensors, actuators, displays, and small automation systems. Every project is a new conversation between code and current.
+## 🐔 Aman Agrovet Dashboard
+
+A digital management platform for poultry farm operations.
+
+Features include:
+
+- Employee management
+- Attendance
+- Salary tracking
+- Farm analytics
+- Live monitoring
+- Dashboard UI
+- Future IoT integration
+
+Designed to modernize day-to-day poultry operations using software.
 
 ---
 
-## 🧰 Tech & Tools
+## 🌊 Pebble
 
-<div align="center">
+A productivity-focused web application focused on helping users organize work and visualize progress.
+
+Current work includes:
+
+- Analytics dashboard
+- Modern UI
+- User insights
+- Responsive design
+- Performance improvements
+
+---
+
+# 🧰 Tech Stack
+
+### Languages
 
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-</div>
+### AI & Backend
 
-**Hardware Side:**
-`Circuit Design` · `LDR Sensors` · `Relay Modules` · `Arduino Uno` · `Breadboard Prototyping`
+- Python
+- FastAPI
+- Ollama
+- Groq API
+- WebSockets
+- Supabase
+- Firebase
 
-**Software Side:**
-`Python` · `Modular Architecture` · `LLM Integration` · `Intent Detection` · 
+### Hardware
+
+- ESP32
+- Arduino
+- Sensors
+- Embedded Systems
+- Circuit Design
+
+### Tools
+
+- Git
+- GitHub
+- VS Code
+- Fusion 360
+- KiCad
 
 ---
 
-## 📊 GitHub Stats
+# 📊 GitHub Stats
 
 <div align="center">
 
-![Aman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aman-lab1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Aman-lab1&show_icons=true&theme=tokyonight&hide_border=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Aman-lab1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Aman-lab1&layout=compact&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Aman-lab1&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff9800&currStreakLabel=58a6ff)
+![GitHub Streak](https://streak-stats.demolab.com?user=Aman-lab1&theme=tokyonight&hide_border=true)
 
 </div>
 
 ---
 
-## 🔭 My Roadmap (2025 → Beyond)
+# 🗺️ Roadmap
 
-```
-✅  Complete first EEE project (Automatic Street Light)
-✅  Start Rexy — Personal AI Assistant
-🔄  Finish Rexy Phase 4 — Ollama LLM Integration
-⏳  Rexy Phase 5 → Plugin Interface & Test Harness
-⏳  Arduino intermediate series (sensors + displays)
-⏳  Dive deeper into Signal Processing & Control Systems
-⏳  Bridge the gap → AI + Embedded Systems (Edge AI)
-🚀  Long term → Work at the intersection of hardware intelligence
+```text
+✅ Build Rexy Core
+🔄 Finish Rexy Plugin System
+🔄 Complete Desk Buddy Prototype
+⏳ Embedded AI with ESP32
+⏳ Computer Vision Integration
+⏳ Edge AI Applications
+⏳ Open Source Contributions
+🚀 Build intelligent hardware that solves real-world problems
 ```
 
 ---
 
-## 💭 How I Think
+# 💭 Philosophy
 
-I'm not a CS student pretending to do electronics, or an electronics hobbyist playing with Python.
-I'm genuinely trying to become fluent in **both languages** — the language of electrons and the language of logic — because the most interesting problems in the world live right at that border.
+I enjoy building things before they're perfect.
 
-I also believe in building things that *actually work* before I fully understand them, and then reverse-engineering the understanding. It's a chaotic strategy. It's also the one that teaches you the most.
+Every project teaches me something new about how intelligence, electronics, and software interact. Whether it's a robot moving across a desk or an AI reasoning through a task, I'm interested in understanding the systems underneath—not just using them.
+
+My goal is to work at the intersection of **AI, robotics, and embedded systems**, where software meets the physical world.
 
 ---
 
-## 📫 Let's Connect
+# 📫 Connect
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aman-rajpura-a1a1433bb/)
+
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Aman-lab1)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amanrajpura789@gmail.com)
 
 </div>
 
@@ -119,10 +190,10 @@ I also believe in building things that *actually work* before I fully understand
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
 
-*"The day I stop being curious about how things work is the day I stop being an engineer."*
+> *"The most interesting engineering happens where software meets the physical world."*
 
-![Visitor Count](https://komarev.com/ghpvc/?username=Aman-lab1&color=58a6ff&style=flat-square&label=Profile+Views)
+![Visitor Count](https://komarev.com/ghpvc/?username=Aman-lab1&style=flat-square&color=58a6ff&label=Profile+Views)
 
 </div>
