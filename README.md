@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:1e1b4b,100:2563eb&height=220&section=header&text=Aman%20Rajpura&fontSize=46&fontColor=f8fafc&fontAlignY=38&desc=Electrical%20%26%20Electronics%20Engineering%20%7C%20Embedded%20Systems%20%26%20AI&descSize=17&descColor=93c5fd&descAlignY=60&animation=fadeIn" width="100%" alt="Aman Rajpura Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090d16,50:1e1b4b,100:2563eb&height=220&section=header&text=Aman%20Rajpura&fontSize=46&fontColor=f8fafc&fontAlignY=38&desc=Electrical%20and%20Electronics%20Engineering%20%7C%20Embedded%20Systems%20and%20AI&descSize=16&descColor=93c5fd&descAlignY=60&animation=fadeIn" width="100%" alt="Aman Rajpura Header" />
 
 <!-- Quick Social & Contact Links -->
 <p>
@@ -159,12 +159,11 @@ Rexy is a long-term experimental project investigating how an AI assistant can r
 <div align="center">
 
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=Aman-lab1&show_icons=true&bg_color=090d16&title_color=60a5fa&text_color=cbd5e1&icon_color=818cf8&border_color=1e293b&hide_border=false" height="175" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Aman-lab1&layout=compact&bg_color=090d16&title_color=60a5fa&text_color=cbd5e1&border_color=1e293b&hide_border=false" height="175" alt="Top Languages" />
+  <img src="https://streak-stats.demolab.com?user=Aman-lab1&background=090d16&border=1e293b&ring=3b82f6&fire=818cf8&currStreakLabel=60a5fa&sideLabels=94a3b8&currStreakNum=f8fafc&sideNums=f8fafc&dates=64748b" alt="GitHub Streak" />
 </p>
 
 <p>
-  <img src="https://streak-stats.demolab.com?user=Aman-lab1&background=090d16&border=1e293b&ring=3b82f6&fire=818cf8&currStreakLabel=60a5fa&sideLabels=94a3b8&currStreakNum=f8fafc&sideNums=f8fafc&dates=64748b" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Aman-lab1&bg_color=090d16&color=93c5fd&line=3b82f6&point=818cf8&area=true&area_color=1e1b4b&hide_border=false&border_color=1e293b" width="100%" alt="GitHub Contribution Graph" />
 </p>
 
 </div>
