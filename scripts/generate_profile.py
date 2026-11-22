@@ -4,6 +4,7 @@ import math
 import os
 import re
 import textwrap
+import time
 from datetime import datetime, timedelta, timezone
 import requests
 from PIL import Image, ImageEnhance, ImageFilter
@@ -554,7 +555,7 @@ def build_3d_contributions_svg(total_contribs, weeks):
 
 
 def update_readme_project_links(top_repos):
-    """Keep README.md clickable repo links synced to the live top 4 repos."""
+    """Keep README.md clickable repo links and cache-busting SVG versions synced."""
     if not os.path.exists("README.md"):
         return
     with open("README.md", "r", encoding="utf-8") as f:
@@ -589,6 +590,24 @@ def update_readme_project_links(top_repos):
         content,
         flags=re.DOTALL,
     )
+
+    ts = int(time.time())
+    svg_files = [
+        "hero-scan.svg",
+        "philosophy.svg",
+        "contributions-3d.svg",
+        "project-1.svg",
+        "project-2.svg",
+        "project-3.svg",
+        "project-4.svg",
+    ]
+    for svg_name in svg_files:
+        updated = re.sub(
+            rf"\./assets/{re.escape(svg_name)}(\?v=\d+)?",
+            f"./assets/{svg_name}?v={ts}",
+            updated,
+        )
+
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(updated)
 
