@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- 01. Live Boot-Up & High-Clarity Laser-Scanned ASCII Avatar (0.0s - 2.5s) -->
+<!-- 01. Live Boot-Up & Laser-Scanned ASCII Avatar (0.0s - 3.0s) -->
 <img src="./assets/hero-scan.svg" width="100%" alt="Aman Rajpura Live Profile Scan" />
 
 <p>
@@ -9,13 +9,25 @@
   <a href="mailto:amanrajpura789@gmail.com"><img src="https://img.shields.io/badge/Email-amanrajpura789%40gmail.com-0b1120?style=for-the-badge&logo=gmail&logoColor=34d399" alt="Email" /></a>
 </p>
 
-<!-- 02. Kinetic Typography Engineering Philosophy (2.1s - 4.0s) -->
+<!-- 02. Kinetic Typography Engineering Philosophy (3.2s - 5.4s) -->
 <img src="./assets/philosophy.svg" width="100%" alt="Engineering Philosophy" />
 
-<!-- 03. Holographic Active Builds Ranked by Commit Velocity (4.1s - 5.6s) -->
-<img src="./assets/projects.svg" width="100%" alt="Active Projects Ranked by Commit Velocity" />
+### `ACTIVE.BUILDS` — Ranked by Commit Velocity
 
-<!-- 04. 3D Isometric Contribution Skyline (5.8s - 8.2s) -->
+<!-- PROJECTS:START -->
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/Aman-lab1/Folio"><img src="./assets/project-1.svg" width="100%" alt="Folio" /></a></td>
+    <td width="50%"><a href="https://github.com/Aman-lab1/Pebble"><img src="./assets/project-2.svg" width="100%" alt="Pebble" /></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/Aman-lab1/Memento"><img src="./assets/project-3.svg" width="100%" alt="Memento" /></a></td>
+    <td width="50%"><a href="https://github.com/Aman-lab1/Verdant-Vellum"><img src="./assets/project-4.svg" width="100%" alt="Verdant-Vellum" /></a></td>
+  </tr>
+</table>
+<!-- PROJECTS:END -->
+
+<!-- 04. 3D Isometric Contribution Skyline (8.0s - 10.8s) -->
 <img src="./assets/contributions-3d.svg" width="100%" alt="3D Isometric Contribution Skyline" />
 
 </div>
