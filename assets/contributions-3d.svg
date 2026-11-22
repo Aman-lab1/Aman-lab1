@@ -822,9 +822,9 @@
             </g>
             
             <g class="iso-tower" style="transform-origin:487.2px 315.0px; animation-delay:9.52s">
-              <polygon points="473.4,266.8 487.2,273.8 487.2,315.0 473.4,308.0" fill="#0ea5e9" />
-              <polygon points="487.2,273.8 501.0,266.8 501.0,308.0 487.2,315.0" fill="#0284c7" />
-              <polygon points="487.2,259.8 501.0,266.8 487.2,273.8 473.4,266.8" fill="#7dd3fc" />
+              <polygon points="473.4,261.9 487.2,268.9 487.2,315.0 473.4,308.0" fill="#0ea5e9" />
+              <polygon points="487.2,268.9 501.0,261.9 501.0,308.0 487.2,315.0" fill="#0284c7" />
+              <polygon points="487.2,254.9 501.0,261.9 487.2,268.9 473.4,261.9" fill="#7dd3fc" />
             </g>
             </g>
 
@@ -834,7 +834,7 @@
     <line x1="615" y1="108" x2="800" y2="108" stroke="#1e293b" stroke-width="1" />
 
     <text x="615" y="138" font-family="monospace" font-size="11.5" fill="#64748b">ANNUAL CONTRIBUTIONS</text>
-    <text x="615" y="170" font-family="monospace" font-size="30" font-weight="700" fill="#38bdf8">195</text>
+    <text x="615" y="170" font-family="monospace" font-size="30" font-weight="700" fill="#38bdf8">196</text>
 
     <text x="615" y="210" font-family="monospace" font-size="11.5" fill="#64748b">ACTIVE BUILD DAYS (20W)</text>
     <text x="615" y="240" font-family="monospace" font-size="26" font-weight="700" fill="#f8fafc">26 <tspan font-size="13" fill="#34d399">days</tspan></text>
