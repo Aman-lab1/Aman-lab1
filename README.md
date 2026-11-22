@@ -71,14 +71,17 @@ Rather than treating hardware and software as separate disciplines, my work cent
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>Folio — Personal & Business Finance Tracker</h3>
-      <p><code>Status: Controlled Testing</code></p>
-      <p>An offline-capable Progressive Web App (PWA) designed to simplify personal and small-scale business financial record-keeping without relying on continuous cloud connectivity.</p>
+      <h3>Folio — Personal & Business Finance Management</h3>
+      <p><code>Status: Active Development & Controlled Testing</code></p>
+      <p>A local-first financial management Progressive Web App (PWA) designed to organize personal and small-business finances through independent ledgers, structured transaction tracking, and financial reporting. Built with offline functionality and a strong emphasis on data ownership and reliability.</p>
       <ul>
-        <li>Multi-profile data separation for personal and business ledgers</li>
-        <li>Local-first storage architecture powered by <strong>IndexedDB</strong></li>
-        <li>Offline-first execution with full PWA installability</li>
-        <li>Structured transaction and category management</li>
+        <li>Independent local profiles with optional PIN-based access protection</li>
+        <li>Separate Personal and Business financial contexts with categorized income and expense tracking</li>
+        <li>Quick transaction entry, editing, deletion, and chronological history management</li>
+        <li>Financial dashboards, category-wise analytics, and cash vs. online payment reports</li>
+        <li>Persistent browser-side storage using IndexedDB, with offline PWA functionality</li>
+        <li>JSON backup and restore, alongside CSV transaction exports</li>
+        <li>Responsive, mobile-first interface designed for everyday financial record-keeping</li>
       </ul>
     </td>
   </tr>
