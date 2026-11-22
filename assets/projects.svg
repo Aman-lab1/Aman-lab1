@@ -1,91 +1,95 @@
-<svg width="900" height="364" viewBox="0 0 900 364" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="374" viewBox="0 0 900 374" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .proj-card {
+    .holo-card {
       opacity: 0;
-      transform: translateY(10px);
-      animation: cardIn 0.45s ease-out forwards;
+      transform: scale(0.96) translateY(10px);
+      animation: holoBoot 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
-    @keyframes cardIn {
-      to { opacity: 1; transform: translateY(0); }
+    @keyframes holoBoot {
+      to { opacity: 1; transform: scale(1) translateY(0); }
     }
   </style>
-  <rect width="900" height="364" rx="12" fill="#090d16" />
-  <rect x="6" y="6" width="888" height="352" rx="12" fill="#0b1120" stroke="#1e3a8a" stroke-width="1.2" />
-  <text x="24" y="34" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6" letter-spacing="1.2">ACTIVE.BUILDS</text>
-  <text x="145" y="34" font-family="monospace" font-size="11" fill="#64748b">./projects.sh --sort=momentum</text>
-  <text x="874" y="34" text-anchor="end" font-family="monospace" font-size="11" fill="#38bdf8">auto-synced via commit velocity</text>
-  <line x1="22" y1="44" x2="878" y2="44" stroke="#1e293b" stroke-width="1" />
+  <rect width="900" height="374" rx="12" fill="#090d16" />
+  <rect x="6" y="6" width="888" height="362" rx="12" fill="#0b1120" stroke="#1e3a8a" stroke-width="1.2" />
+  <text x="24" y="34" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6" letter-spacing="1.4">ACTIVE.BUILDS</text>
+  <text x="150" y="34" font-family="monospace" font-size="11" fill="#64748b">./projects.sh --sort=momentum</text>
+  <text x="874" y="34" text-anchor="end" font-family="monospace" font-size="11" fill="#38bdf8">ranked by commit velocity</text>
+  <line x1="22" y1="45" x2="878" y2="45" stroke="#1e293b" stroke-width="1" />
   
-        <g class="proj-card" style="animation-delay:0.3s">
-          <rect x="22" y="54" width="422" height="138" rx="8" fill="#070b14" stroke="#1e3a8a" stroke-width="1" />
-          <text x="38" y="76" font-family="monospace" font-size="10.5" fill="#64748b">• Aman-lab1/Folio</text>
-          <text x="38" y="100" font-family="monospace" font-size="15" font-weight="700" fill="#38bdf8">Folio <tspan fill="#60a5fa">_</tspan></text>
-          <text x="38" y="122" font-family="sans-serif" font-size="11.5" fill="#94a3b8">Offline-first personal &amp; business ledger PW</text>
-          <text x="38" y="138" font-family="sans-serif" font-size="11.5" fill="#94a3b8">A with IndexedDB persistence, PIN lock...</text>
+        <g class="holo-card" style="animation-delay:4.1s">
+          <rect x="22" y="56" width="422" height="142" rx="8" fill="#070b14" stroke="#1e3a8a" stroke-width="1.1" />
+          <rect x="22" y="56" width="4" height="142" rx="2" fill="#38bdf8" />
+          <text x="40" y="79" font-family="monospace" font-size="10.5" fill="#64748b">NODE_01 // Aman-lab1/Folio</text>
+          <text x="40" y="104" font-family="monospace" font-size="15.5" font-weight="700" fill="#f8fafc">Folio <tspan fill="#38bdf8">_</tspan></text>
+          <text x="40" y="126" font-family="sans-serif" font-size="11.5" fill="#cbd5e1">Offline-first personal &amp; business ledger PW</text>
+          <text x="40" y="142" font-family="sans-serif" font-size="11.5" fill="#94a3b8">A with IndexedDB persistence &amp; analytics.</text>
 
-          <rect x="38" y="152" width="199" height="18" rx="4" fill="#0f172a" stroke="#1e293b" />
-          <text x="45" y="164" font-family="monospace" font-size="10" fill="#7dd3fc">JavaScript · IndexedDB · PWA</text>
-          <text x="38" y="183" font-family="monospace" font-size="10" fill="#64748b">★ 0  ·  12 recent commits  ·  updated today</text>
+          <rect x="40" y="157" width="199" height="18" rx="4" fill="#0f172a" stroke="#1e3a8a" />
+          <text x="47" y="169" font-family="monospace" font-size="10" fill="#7dd3fc">JavaScript · IndexedDB · PWA</text>
+          <text x="40" y="188" font-family="monospace" font-size="10" fill="#64748b">★ 0  ·  12 recent commits  ·  updated today</text>
 
-          <circle cx="400" cy="122" r="20" fill="none" stroke="#1e293b" stroke-width="4.5" />
-          <circle cx="400" cy="122" r="20" fill="none" stroke="#38bdf8" stroke-width="4.5"
-                  stroke-dasharray="125.7" stroke-dashoffset="6.3"
-                  stroke-linecap="round" transform="rotate(-90 400 122)" />
-          <text x="400" y="126" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#f8fafc">95%</text>
+          <circle cx="398" cy="126" r="21" fill="none" stroke="#1e293b" stroke-width="4.5" />
+          <circle cx="398" cy="126" r="21" fill="none" stroke="#38bdf8" stroke-width="4.5"
+                  stroke-dasharray="131.9" stroke-dashoffset="6.6"
+                  stroke-linecap="round" transform="rotate(-90 398 126)" />
+          <text x="398" y="130" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#f8fafc">95%</text>
         </g>
         
-        <g class="proj-card" style="animation-delay:0.48s">
-          <rect x="456" y="54" width="422" height="138" rx="8" fill="#070b14" stroke="#1e3a8a" stroke-width="1" />
-          <text x="472" y="76" font-family="monospace" font-size="10.5" fill="#64748b">• Aman-lab1/Pebble</text>
-          <text x="472" y="100" font-family="monospace" font-size="15" font-weight="700" fill="#38bdf8">Pebble <tspan fill="#60a5fa">_</tspan></text>
-          <text x="472" y="122" font-family="sans-serif" font-size="11.5" fill="#94a3b8">Minimalist daily expense tracker with granu</text>
-          <text x="472" y="138" font-family="sans-serif" font-size="11.5" fill="#94a3b8">lar categorization and interactive spe...</text>
+        <g class="holo-card" style="animation-delay:4.35s">
+          <rect x="456" y="56" width="422" height="142" rx="8" fill="#070b14" stroke="#1e3a8a" stroke-width="1.1" />
+          <rect x="456" y="56" width="4" height="142" rx="2" fill="#38bdf8" />
+          <text x="474" y="79" font-family="monospace" font-size="10.5" fill="#64748b">NODE_02 // Aman-lab1/Pebble</text>
+          <text x="474" y="104" font-family="monospace" font-size="15.5" font-weight="700" fill="#f8fafc">Pebble <tspan fill="#38bdf8">_</tspan></text>
+          <text x="474" y="126" font-family="sans-serif" font-size="11.5" fill="#cbd5e1">Minimalist daily expense tracker with granu</text>
+          <text x="474" y="142" font-family="sans-serif" font-size="11.5" fill="#94a3b8">lar categorization &amp; spending summaries.</text>
 
-          <rect x="472" y="152" width="179" height="18" rx="4" fill="#0f172a" stroke="#1e293b" />
-          <text x="479" y="164" font-family="monospace" font-size="10" fill="#7dd3fc">JavaScript · HTML5 · CSS3</text>
-          <text x="472" y="183" font-family="monospace" font-size="10" fill="#64748b">★ 1  ·  27 recent commits  ·  updated 2mo ago</text>
+          <rect x="474" y="157" width="179" height="18" rx="4" fill="#0f172a" stroke="#1e3a8a" />
+          <text x="481" y="169" font-family="monospace" font-size="10" fill="#7dd3fc">JavaScript · HTML5 · CSS3</text>
+          <text x="474" y="188" font-family="monospace" font-size="10" fill="#64748b">★ 1  ·  27 recent commits  ·  updated 2mo ago</text>
 
-          <circle cx="834" cy="122" r="20" fill="none" stroke="#1e293b" stroke-width="4.5" />
-          <circle cx="834" cy="122" r="20" fill="none" stroke="#38bdf8" stroke-width="4.5"
-                  stroke-dasharray="125.7" stroke-dashoffset="44.0"
-                  stroke-linecap="round" transform="rotate(-90 834 122)" />
-          <text x="834" y="126" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#f8fafc">65%</text>
+          <circle cx="832" cy="126" r="21" fill="none" stroke="#1e293b" stroke-width="4.5" />
+          <circle cx="832" cy="126" r="21" fill="none" stroke="#38bdf8" stroke-width="4.5"
+                  stroke-dasharray="131.9" stroke-dashoffset="46.2"
+                  stroke-linecap="round" transform="rotate(-90 832 126)" />
+          <text x="832" y="130" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#f8fafc">65%</text>
         </g>
         
-        <g class="proj-card" style="animation-delay:0.66s">
-          <rect x="22" y="206" width="422" height="138" rx="8" fill="#070b14" stroke="#1e3a8a" stroke-width="1" />
-          <text x="38" y="228" font-family="monospace" font-size="10.5" fill="#64748b">• Aman-lab1/Memento</text>
-          <text x="38" y="252" font-family="monospace" font-size="15" font-weight="700" fill="#38bdf8">Memento <tspan fill="#60a5fa">_</tspan></text>
-          <text x="38" y="274" font-family="sans-serif" font-size="11.5" fill="#94a3b8">Mobile-first peer-to-peer lending &amp; borrowi</text>
-          <text x="38" y="290" font-family="sans-serif" font-size="11.5" fill="#94a3b8">ng tracker with automated net balance...</text>
+        <g class="holo-card" style="animation-delay:4.6s">
+          <rect x="22" y="212" width="422" height="142" rx="8" fill="#070b14" stroke="#1e3a8a" stroke-width="1.1" />
+          <rect x="22" y="212" width="4" height="142" rx="2" fill="#38bdf8" />
+          <text x="40" y="235" font-family="monospace" font-size="10.5" fill="#64748b">NODE_03 // Aman-lab1/Memento</text>
+          <text x="40" y="260" font-family="monospace" font-size="15.5" font-weight="700" fill="#f8fafc">Memento <tspan fill="#38bdf8">_</tspan></text>
+          <text x="40" y="282" font-family="sans-serif" font-size="11.5" fill="#cbd5e1">Mobile-first peer-to-peer lending &amp; borrowi</text>
+          <text x="40" y="298" font-family="sans-serif" font-size="11.5" fill="#94a3b8">ng tracker with automated balance audits.</text>
 
-          <rect x="38" y="304" width="219" height="18" rx="4" fill="#0f172a" stroke="#1e293b" />
-          <text x="45" y="316" font-family="monospace" font-size="10" fill="#7dd3fc">JavaScript · LocalStorage · PWA</text>
-          <text x="38" y="335" font-family="monospace" font-size="10" fill="#64748b">★ 1  ·  18 recent commits  ·  updated 2mo ago</text>
+          <rect x="40" y="313" width="219" height="18" rx="4" fill="#0f172a" stroke="#1e3a8a" />
+          <text x="47" y="325" font-family="monospace" font-size="10" fill="#7dd3fc">JavaScript · LocalStorage · PWA</text>
+          <text x="40" y="344" font-family="monospace" font-size="10" fill="#64748b">★ 1  ·  18 recent commits  ·  updated 2mo ago</text>
 
-          <circle cx="400" cy="274" r="20" fill="none" stroke="#1e293b" stroke-width="4.5" />
-          <circle cx="400" cy="274" r="20" fill="none" stroke="#38bdf8" stroke-width="4.5"
-                  stroke-dasharray="125.7" stroke-dashoffset="67.9"
-                  stroke-linecap="round" transform="rotate(-90 400 274)" />
-          <text x="400" y="278" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#f8fafc">46%</text>
+          <circle cx="398" cy="282" r="21" fill="none" stroke="#1e293b" stroke-width="4.5" />
+          <circle cx="398" cy="282" r="21" fill="none" stroke="#38bdf8" stroke-width="4.5"
+                  stroke-dasharray="131.9" stroke-dashoffset="71.3"
+                  stroke-linecap="round" transform="rotate(-90 398 282)" />
+          <text x="398" y="286" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#f8fafc">46%</text>
         </g>
         
-        <g class="proj-card" style="animation-delay:0.84s">
-          <rect x="456" y="206" width="422" height="138" rx="8" fill="#070b14" stroke="#1e3a8a" stroke-width="1" />
-          <text x="472" y="228" font-family="monospace" font-size="10.5" fill="#64748b">• Aman-lab1/Verdant-Vellum</text>
-          <text x="472" y="252" font-family="monospace" font-size="15" font-weight="700" fill="#38bdf8">Verdant-Vellum <tspan fill="#60a5fa">_</tspan></text>
-          <text x="472" y="274" font-family="sans-serif" font-size="11.5" fill="#94a3b8">Storefront showcase for Verdant &amp; Vellum: g</text>
-          <text x="472" y="290" font-family="sans-serif" font-size="11.5" fill="#94a3b8">othic apothecary and dark academia cli...</text>
+        <g class="holo-card" style="animation-delay:4.85s">
+          <rect x="456" y="212" width="422" height="142" rx="8" fill="#070b14" stroke="#1e3a8a" stroke-width="1.1" />
+          <rect x="456" y="212" width="4" height="142" rx="2" fill="#38bdf8" />
+          <text x="474" y="235" font-family="monospace" font-size="10.5" fill="#64748b">NODE_04 // Aman-lab1/Verdant-Vellum</text>
+          <text x="474" y="260" font-family="monospace" font-size="15.5" font-weight="700" fill="#f8fafc">Verdant-Vellum <tspan fill="#38bdf8">_</tspan></text>
+          <text x="474" y="282" font-family="sans-serif" font-size="11.5" fill="#cbd5e1">Storefront showcase for Verdant &amp; Vellum: g</text>
+          <text x="474" y="298" font-family="sans-serif" font-size="11.5" fill="#94a3b8">othic apothecary and dark academia cli...</text>
 
-          <rect x="472" y="304" width="34" height="18" rx="4" fill="#0f172a" stroke="#1e293b" />
-          <text x="479" y="316" font-family="monospace" font-size="10" fill="#7dd3fc">CSS</text>
-          <text x="472" y="335" font-family="monospace" font-size="10" fill="#64748b">★ 0  ·  3 recent commits  ·  updated 1mo ago</text>
+          <rect x="474" y="313" width="34" height="18" rx="4" fill="#0f172a" stroke="#1e3a8a" />
+          <text x="481" y="325" font-family="monospace" font-size="10" fill="#7dd3fc">CSS</text>
+          <text x="474" y="344" font-family="monospace" font-size="10" fill="#64748b">★ 0  ·  3 recent commits  ·  updated 1mo ago</text>
 
-          <circle cx="834" cy="274" r="20" fill="none" stroke="#1e293b" stroke-width="4.5" />
-          <circle cx="834" cy="274" r="20" fill="none" stroke="#38bdf8" stroke-width="4.5"
-                  stroke-dasharray="125.7" stroke-dashoffset="77.9"
-                  stroke-linecap="round" transform="rotate(-90 834 274)" />
-          <text x="834" y="278" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#f8fafc">38%</text>
+          <circle cx="832" cy="282" r="21" fill="none" stroke="#1e293b" stroke-width="4.5" />
+          <circle cx="832" cy="282" r="21" fill="none" stroke="#38bdf8" stroke-width="4.5"
+                  stroke-dasharray="131.9" stroke-dashoffset="81.8"
+                  stroke-linecap="round" transform="rotate(-90 832 282)" />
+          <text x="832" y="286" text-anchor="middle" font-family="monospace" font-size="10.5" font-weight="700" fill="#f8fafc">38%</text>
         </g>
         
 </svg>

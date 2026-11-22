@@ -1,0 +1,939 @@
+<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .iso-tower {
+      transform: scaleY(0);
+      animation: riseSkyline 0.65s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+    }
+    .stat-fade {
+      opacity: 0;
+      animation: fadeStat 0.5s ease-out 6.4s forwards;
+    }
+    @keyframes riseSkyline {
+      0% { transform: scaleY(0); opacity: 0.2; }
+      100% { transform: scaleY(1); opacity: 1; }
+    }
+    @keyframes fadeStat {
+      to { opacity: 1; }
+    }
+  </style>
+
+  <rect width="900" height="360" rx="12" fill="#090d16" />
+  <rect x="6" y="6" width="888" height="348" rx="12" fill="#0b1120" stroke="#1e3a8a" stroke-width="1.2" />
+
+  <text x="24" y="34" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6" letter-spacing="1.4">CONTRIBUTION.SKYLINE // 3D_TELEMETRY</text>
+  <text x="874" y="34" text-anchor="end" font-family="monospace" font-size="11" fill="#38bdf8">22-week isometric commit elevation</text>
+  <line x1="22" y1="45" x2="878" y2="45" stroke="#1e293b" stroke-width="1" />
+
+  <!-- 3D Isometric City Grid -->
+  <g>
+    
+            <g class="iso-tower" style="transform-origin:245.0px 171.8px; animation-delay:5.8s">
+              <polygon points="231.5,161.0 245.0,167.8 245.0,171.8 231.5,165.0" fill="#0f172a" />
+              <polygon points="245.0,167.8 258.5,161.0 258.5,165.0 245.0,171.8" fill="#172033" />
+              <polygon points="245.0,154.2 258.5,161.0 245.0,167.8 231.5,161.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:231.5px 178.6px; animation-delay:5.83s">
+              <polygon points="218.0,167.8 231.5,174.6 231.5,178.6 218.0,171.8" fill="#0f172a" />
+              <polygon points="231.5,174.6 245.0,167.8 245.0,171.8 231.5,178.6" fill="#172033" />
+              <polygon points="231.5,161.0 245.0,167.8 231.5,174.6 218.0,167.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:218.0px 185.4px; animation-delay:5.86s">
+              <polygon points="204.5,174.6 218.0,181.4 218.0,185.4 204.5,178.6" fill="#0f172a" />
+              <polygon points="218.0,181.4 231.5,174.6 231.5,178.6 218.0,185.4" fill="#172033" />
+              <polygon points="218.0,167.8 231.5,174.6 218.0,181.4 204.5,174.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:204.5px 192.2px; animation-delay:5.89s">
+              <polygon points="191.0,181.4 204.5,188.2 204.5,192.2 191.0,185.4" fill="#0f172a" />
+              <polygon points="204.5,188.2 218.0,181.4 218.0,185.4 204.5,192.2" fill="#172033" />
+              <polygon points="204.5,174.6 218.0,181.4 204.5,188.2 191.0,181.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:191.0px 199.0px; animation-delay:5.92s">
+              <polygon points="177.5,188.2 191.0,195.0 191.0,199.0 177.5,192.2" fill="#0f172a" />
+              <polygon points="191.0,195.0 204.5,188.2 204.5,192.2 191.0,199.0" fill="#172033" />
+              <polygon points="191.0,181.4 204.5,188.2 191.0,195.0 177.5,188.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:177.5px 205.8px; animation-delay:5.95s">
+              <polygon points="164.0,195.0 177.5,201.8 177.5,205.8 164.0,199.0" fill="#0f172a" />
+              <polygon points="177.5,201.8 191.0,195.0 191.0,199.0 177.5,205.8" fill="#172033" />
+              <polygon points="177.5,188.2 191.0,195.0 177.5,201.8 164.0,195.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:164.0px 212.6px; animation-delay:5.98s">
+              <polygon points="150.5,201.8 164.0,208.6 164.0,212.6 150.5,205.8" fill="#0f172a" />
+              <polygon points="164.0,208.6 177.5,201.8 177.5,205.8 164.0,212.6" fill="#172033" />
+              <polygon points="164.0,195.0 177.5,201.8 164.0,208.6 150.5,201.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:258.5px 178.6px; animation-delay:5.85s">
+              <polygon points="245.0,167.8 258.5,174.6 258.5,178.6 245.0,171.8" fill="#0f172a" />
+              <polygon points="258.5,174.6 272.0,167.8 272.0,171.8 258.5,178.6" fill="#172033" />
+              <polygon points="258.5,161.0 272.0,167.8 258.5,174.6 245.0,167.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:245.0px 185.4px; animation-delay:5.88s">
+              <polygon points="231.5,174.6 245.0,181.4 245.0,185.4 231.5,178.6" fill="#0f172a" />
+              <polygon points="245.0,181.4 258.5,174.6 258.5,178.6 245.0,185.4" fill="#172033" />
+              <polygon points="245.0,167.8 258.5,174.6 245.0,181.4 231.5,174.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:231.5px 192.2px; animation-delay:5.91s">
+              <polygon points="218.0,181.4 231.5,188.2 231.5,192.2 218.0,185.4" fill="#0f172a" />
+              <polygon points="231.5,188.2 245.0,181.4 245.0,185.4 231.5,192.2" fill="#172033" />
+              <polygon points="231.5,174.6 245.0,181.4 231.5,188.2 218.0,181.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:218.0px 199.0px; animation-delay:5.94s">
+              <polygon points="204.5,188.2 218.0,195.0 218.0,199.0 204.5,192.2" fill="#0f172a" />
+              <polygon points="218.0,195.0 231.5,188.2 231.5,192.2 218.0,199.0" fill="#172033" />
+              <polygon points="218.0,181.4 231.5,188.2 218.0,195.0 204.5,188.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:204.5px 205.8px; animation-delay:5.97s">
+              <polygon points="191.0,195.0 204.5,201.8 204.5,205.8 191.0,199.0" fill="#0f172a" />
+              <polygon points="204.5,201.8 218.0,195.0 218.0,199.0 204.5,205.8" fill="#172033" />
+              <polygon points="204.5,188.2 218.0,195.0 204.5,201.8 191.0,195.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:191.0px 212.6px; animation-delay:6.0s">
+              <polygon points="177.5,201.8 191.0,208.6 191.0,212.6 177.5,205.8" fill="#0f172a" />
+              <polygon points="191.0,208.6 204.5,201.8 204.5,205.8 191.0,212.6" fill="#172033" />
+              <polygon points="191.0,195.0 204.5,201.8 191.0,208.6 177.5,201.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:177.5px 219.4px; animation-delay:6.03s">
+              <polygon points="164.0,208.6 177.5,215.4 177.5,219.4 164.0,212.6" fill="#0f172a" />
+              <polygon points="177.5,215.4 191.0,208.6 191.0,212.6 177.5,219.4" fill="#172033" />
+              <polygon points="177.5,201.8 191.0,208.6 177.5,215.4 164.0,208.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:272.0px 185.4px; animation-delay:5.91s">
+              <polygon points="258.5,96.6 272.0,103.4 272.0,185.4 258.5,178.6" fill="#38bdf8" />
+              <polygon points="272.0,103.4 285.5,96.6 285.5,178.6 272.0,185.4" fill="#0ea5e9" />
+              <polygon points="272.0,89.8 285.5,96.6 272.0,103.4 258.5,96.6" fill="#e0f2fe" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:258.5px 192.2px; animation-delay:5.94s">
+              <polygon points="245.0,181.4 258.5,188.2 258.5,192.2 245.0,185.4" fill="#0f172a" />
+              <polygon points="258.5,188.2 272.0,181.4 272.0,185.4 258.5,192.2" fill="#172033" />
+              <polygon points="258.5,174.6 272.0,181.4 258.5,188.2 245.0,181.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:245.0px 199.0px; animation-delay:5.97s">
+              <polygon points="231.5,173.2 245.0,180.0 245.0,199.0 231.5,192.2" fill="#0284c7" />
+              <polygon points="245.0,180.0 258.5,173.2 258.5,192.2 245.0,199.0" fill="#0369a1" />
+              <polygon points="245.0,166.4 258.5,173.2 245.0,180.0 231.5,173.2" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:231.5px 205.8px; animation-delay:6.0s">
+              <polygon points="218.0,166.5 231.5,173.3 231.5,205.8 218.0,199.0" fill="#0284c7" />
+              <polygon points="231.5,173.3 245.0,166.5 245.0,199.0 231.5,205.8" fill="#0369a1" />
+              <polygon points="231.5,159.7 245.0,166.5 231.5,173.3 218.0,166.5" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:218.0px 212.6px; animation-delay:6.03s">
+              <polygon points="204.5,201.8 218.0,208.6 218.0,212.6 204.5,205.8" fill="#0f172a" />
+              <polygon points="218.0,208.6 231.5,201.8 231.5,205.8 218.0,212.6" fill="#172033" />
+              <polygon points="218.0,195.0 231.5,201.8 218.0,208.6 204.5,201.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:204.5px 219.4px; animation-delay:6.06s">
+              <polygon points="191.0,198.1 204.5,204.9 204.5,219.4 191.0,212.6" fill="#0284c7" />
+              <polygon points="204.5,204.9 218.0,198.1 218.0,212.6 204.5,219.4" fill="#0369a1" />
+              <polygon points="204.5,191.3 218.0,198.1 204.5,204.9 191.0,198.1" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:191.0px 226.2px; animation-delay:6.09s">
+              <polygon points="177.5,204.9 191.0,211.7 191.0,226.2 177.5,219.4" fill="#0284c7" />
+              <polygon points="191.0,211.7 204.5,204.9 204.5,219.4 191.0,226.2" fill="#0369a1" />
+              <polygon points="191.0,198.1 204.5,204.9 191.0,211.7 177.5,204.9" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:285.5px 192.2px; animation-delay:5.96s">
+              <polygon points="272.0,181.4 285.5,188.2 285.5,192.2 272.0,185.4" fill="#0f172a" />
+              <polygon points="285.5,188.2 299.0,181.4 299.0,185.4 285.5,192.2" fill="#172033" />
+              <polygon points="285.5,174.6 299.0,181.4 285.5,188.2 272.0,181.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:272.0px 199.0px; animation-delay:6.0s">
+              <polygon points="258.5,188.2 272.0,195.0 272.0,199.0 258.5,192.2" fill="#0f172a" />
+              <polygon points="272.0,195.0 285.5,188.2 285.5,192.2 272.0,199.0" fill="#172033" />
+              <polygon points="272.0,181.4 285.5,188.2 272.0,195.0 258.5,188.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:258.5px 205.8px; animation-delay:6.02s">
+              <polygon points="245.0,195.0 258.5,201.8 258.5,205.8 245.0,199.0" fill="#0f172a" />
+              <polygon points="258.5,201.8 272.0,195.0 272.0,199.0 258.5,205.8" fill="#172033" />
+              <polygon points="258.5,188.2 272.0,195.0 258.5,201.8 245.0,195.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:245.0px 212.6px; animation-delay:6.05s">
+              <polygon points="231.5,201.8 245.0,208.6 245.0,212.6 231.5,205.8" fill="#0f172a" />
+              <polygon points="245.0,208.6 258.5,201.8 258.5,205.8 245.0,212.6" fill="#172033" />
+              <polygon points="245.0,195.0 258.5,201.8 245.0,208.6 231.5,201.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:231.5px 219.4px; animation-delay:6.08s">
+              <polygon points="218.0,208.6 231.5,215.4 231.5,219.4 218.0,212.6" fill="#0f172a" />
+              <polygon points="231.5,215.4 245.0,208.6 245.0,212.6 231.5,219.4" fill="#172033" />
+              <polygon points="231.5,201.8 245.0,208.6 231.5,215.4 218.0,208.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:218.0px 226.2px; animation-delay:6.12s">
+              <polygon points="204.5,215.4 218.0,222.2 218.0,226.2 204.5,219.4" fill="#0f172a" />
+              <polygon points="218.0,222.2 231.5,215.4 231.5,219.4 218.0,226.2" fill="#172033" />
+              <polygon points="218.0,208.6 231.5,215.4 218.0,222.2 204.5,215.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:204.5px 233.0px; animation-delay:6.14s">
+              <polygon points="191.0,222.2 204.5,229.0 204.5,233.0 191.0,226.2" fill="#0f172a" />
+              <polygon points="204.5,229.0 218.0,222.2 218.0,226.2 204.5,233.0" fill="#172033" />
+              <polygon points="204.5,215.4 218.0,222.2 204.5,229.0 191.0,222.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:299.0px 199.0px; animation-delay:6.02s">
+              <polygon points="285.5,150.7 299.0,157.5 299.0,199.0 285.5,192.2" fill="#0ea5e9" />
+              <polygon points="299.0,157.5 312.5,150.7 312.5,192.2 299.0,199.0" fill="#0284c7" />
+              <polygon points="299.0,143.9 312.5,150.7 299.0,157.5 285.5,150.7" fill="#7dd3fc" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:285.5px 205.8px; animation-delay:6.05s">
+              <polygon points="272.0,184.5 285.5,191.3 285.5,205.8 272.0,199.0" fill="#0284c7" />
+              <polygon points="285.5,191.3 299.0,184.5 299.0,199.0 285.5,205.8" fill="#0369a1" />
+              <polygon points="285.5,177.7 299.0,184.5 285.5,191.3 272.0,184.5" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:272.0px 212.6px; animation-delay:6.08s">
+              <polygon points="258.5,201.8 272.0,208.6 272.0,212.6 258.5,205.8" fill="#0f172a" />
+              <polygon points="272.0,208.6 285.5,201.8 285.5,205.8 272.0,212.6" fill="#172033" />
+              <polygon points="272.0,195.0 285.5,201.8 272.0,208.6 258.5,201.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:258.5px 219.4px; animation-delay:6.11s">
+              <polygon points="245.0,208.6 258.5,215.4 258.5,219.4 245.0,212.6" fill="#0f172a" />
+              <polygon points="258.5,215.4 272.0,208.6 272.0,212.6 258.5,219.4" fill="#172033" />
+              <polygon points="258.5,201.8 272.0,208.6 258.5,215.4 245.0,208.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:245.0px 226.2px; animation-delay:6.14s">
+              <polygon points="231.5,215.4 245.0,222.2 245.0,226.2 231.5,219.4" fill="#0f172a" />
+              <polygon points="245.0,222.2 258.5,215.4 258.5,219.4 245.0,226.2" fill="#172033" />
+              <polygon points="245.0,208.6 258.5,215.4 245.0,222.2 231.5,215.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:231.5px 233.0px; animation-delay:6.17s">
+              <polygon points="218.0,198.2 231.5,205.0 231.5,233.0 218.0,226.2" fill="#0284c7" />
+              <polygon points="231.5,205.0 245.0,198.2 245.0,226.2 231.5,233.0" fill="#0369a1" />
+              <polygon points="231.5,191.4 245.0,198.2 231.5,205.0 218.0,198.2" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:218.0px 239.8px; animation-delay:6.2s">
+              <polygon points="204.5,229.0 218.0,235.8 218.0,239.8 204.5,233.0" fill="#0f172a" />
+              <polygon points="218.0,235.8 231.5,229.0 231.5,233.0 218.0,239.8" fill="#172033" />
+              <polygon points="218.0,222.2 231.5,229.0 218.0,235.8 204.5,229.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:312.5px 205.8px; animation-delay:6.08s">
+              <polygon points="299.0,195.0 312.5,201.8 312.5,205.8 299.0,199.0" fill="#0f172a" />
+              <polygon points="312.5,201.8 326.0,195.0 326.0,199.0 312.5,205.8" fill="#172033" />
+              <polygon points="312.5,188.2 326.0,195.0 312.5,201.8 299.0,195.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:299.0px 212.6px; animation-delay:6.11s">
+              <polygon points="285.5,201.8 299.0,208.6 299.0,212.6 285.5,205.8" fill="#0f172a" />
+              <polygon points="299.0,208.6 312.5,201.8 312.5,205.8 299.0,212.6" fill="#172033" />
+              <polygon points="299.0,195.0 312.5,201.8 299.0,208.6 285.5,201.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:285.5px 219.4px; animation-delay:6.13s">
+              <polygon points="272.0,198.1 285.5,204.9 285.5,219.4 272.0,212.6" fill="#0284c7" />
+              <polygon points="285.5,204.9 299.0,198.1 299.0,212.6 285.5,219.4" fill="#0369a1" />
+              <polygon points="285.5,191.3 299.0,198.1 285.5,204.9 272.0,198.1" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:272.0px 226.2px; animation-delay:6.17s">
+              <polygon points="258.5,195.9 272.0,202.7 272.0,226.2 258.5,219.4" fill="#0284c7" />
+              <polygon points="272.0,202.7 285.5,195.9 285.5,219.4 272.0,226.2" fill="#0369a1" />
+              <polygon points="272.0,189.1 285.5,195.9 272.0,202.7 258.5,195.9" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:258.5px 233.0px; animation-delay:6.2s">
+              <polygon points="245.0,189.2 258.5,196.0 258.5,233.0 245.0,226.2" fill="#0ea5e9" />
+              <polygon points="258.5,196.0 272.0,189.2 272.0,226.2 258.5,233.0" fill="#0284c7" />
+              <polygon points="258.5,182.4 272.0,189.2 258.5,196.0 245.0,189.2" fill="#7dd3fc" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:245.0px 239.8px; animation-delay:6.23s">
+              <polygon points="231.5,229.0 245.0,235.8 245.0,239.8 231.5,233.0" fill="#0f172a" />
+              <polygon points="245.0,235.8 258.5,229.0 258.5,233.0 245.0,239.8" fill="#172033" />
+              <polygon points="245.0,222.2 258.5,229.0 245.0,235.8 231.5,229.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:231.5px 246.6px; animation-delay:6.25s">
+              <polygon points="218.0,235.8 231.5,242.6 231.5,246.6 218.0,239.8" fill="#0f172a" />
+              <polygon points="231.5,242.6 245.0,235.8 245.0,239.8 231.5,246.6" fill="#172033" />
+              <polygon points="231.5,229.0 245.0,235.8 231.5,242.6 218.0,235.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:326.0px 212.6px; animation-delay:6.13s">
+              <polygon points="312.5,201.8 326.0,208.6 326.0,212.6 312.5,205.8" fill="#0f172a" />
+              <polygon points="326.0,208.6 339.5,201.8 339.5,205.8 326.0,212.6" fill="#172033" />
+              <polygon points="326.0,195.0 339.5,201.8 326.0,208.6 312.5,201.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:312.5px 219.4px; animation-delay:6.16s">
+              <polygon points="299.0,208.6 312.5,215.4 312.5,219.4 299.0,212.6" fill="#0f172a" />
+              <polygon points="312.5,215.4 326.0,208.6 326.0,212.6 312.5,219.4" fill="#172033" />
+              <polygon points="312.5,201.8 326.0,208.6 312.5,215.4 299.0,208.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:299.0px 226.2px; animation-delay:6.19s">
+              <polygon points="285.5,204.9 299.0,211.7 299.0,226.2 285.5,219.4" fill="#0284c7" />
+              <polygon points="299.0,211.7 312.5,204.9 312.5,219.4 299.0,226.2" fill="#0369a1" />
+              <polygon points="299.0,198.1 312.5,204.9 299.0,211.7 285.5,204.9" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:285.5px 233.0px; animation-delay:6.22s">
+              <polygon points="272.0,202.7 285.5,209.5 285.5,233.0 272.0,226.2" fill="#0284c7" />
+              <polygon points="285.5,209.5 299.0,202.7 299.0,226.2 285.5,233.0" fill="#0369a1" />
+              <polygon points="285.5,195.9 299.0,202.7 285.5,209.5 272.0,202.7" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:272.0px 239.8px; animation-delay:6.25s">
+              <polygon points="258.5,229.0 272.0,235.8 272.0,239.8 258.5,233.0" fill="#0f172a" />
+              <polygon points="272.0,235.8 285.5,229.0 285.5,233.0 272.0,239.8" fill="#172033" />
+              <polygon points="272.0,222.2 285.5,229.0 272.0,235.8 258.5,229.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:258.5px 246.6px; animation-delay:6.28s">
+              <polygon points="245.0,235.8 258.5,242.6 258.5,246.6 245.0,239.8" fill="#0f172a" />
+              <polygon points="258.5,242.6 272.0,235.8 272.0,239.8 258.5,246.6" fill="#172033" />
+              <polygon points="258.5,229.0 272.0,235.8 258.5,242.6 245.0,235.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:245.0px 253.4px; animation-delay:6.31s">
+              <polygon points="231.5,242.6 245.0,249.4 245.0,253.4 231.5,246.6" fill="#0f172a" />
+              <polygon points="245.0,249.4 258.5,242.6 258.5,246.6 245.0,253.4" fill="#172033" />
+              <polygon points="245.0,235.8 258.5,242.6 245.0,249.4 231.5,242.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:339.5px 219.4px; animation-delay:6.18s">
+              <polygon points="326.0,208.6 339.5,215.4 339.5,219.4 326.0,212.6" fill="#0f172a" />
+              <polygon points="339.5,215.4 353.0,208.6 353.0,212.6 339.5,219.4" fill="#172033" />
+              <polygon points="339.5,201.8 353.0,208.6 339.5,215.4 326.0,208.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:326.0px 226.2px; animation-delay:6.21s">
+              <polygon points="312.5,215.4 326.0,222.2 326.0,226.2 312.5,219.4" fill="#0f172a" />
+              <polygon points="326.0,222.2 339.5,215.4 339.5,219.4 326.0,226.2" fill="#172033" />
+              <polygon points="326.0,208.6 339.5,215.4 326.0,222.2 312.5,215.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:312.5px 233.0px; animation-delay:6.24s">
+              <polygon points="299.0,222.2 312.5,229.0 312.5,233.0 299.0,226.2" fill="#0f172a" />
+              <polygon points="312.5,229.0 326.0,222.2 326.0,226.2 312.5,233.0" fill="#172033" />
+              <polygon points="312.5,215.4 326.0,222.2 312.5,229.0 299.0,222.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:299.0px 239.8px; animation-delay:6.27s">
+              <polygon points="285.5,229.0 299.0,235.8 299.0,239.8 285.5,233.0" fill="#0f172a" />
+              <polygon points="299.0,235.8 312.5,229.0 312.5,233.0 299.0,239.8" fill="#172033" />
+              <polygon points="299.0,222.2 312.5,229.0 299.0,235.8 285.5,229.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:285.5px 246.6px; animation-delay:6.3s">
+              <polygon points="272.0,235.8 285.5,242.6 285.5,246.6 272.0,239.8" fill="#0f172a" />
+              <polygon points="285.5,242.6 299.0,235.8 299.0,239.8 285.5,246.6" fill="#172033" />
+              <polygon points="285.5,229.0 299.0,235.8 285.5,242.6 272.0,235.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:272.0px 253.4px; animation-delay:6.33s">
+              <polygon points="258.5,242.6 272.0,249.4 272.0,253.4 258.5,246.6" fill="#0f172a" />
+              <polygon points="272.0,249.4 285.5,242.6 285.5,246.6 272.0,253.4" fill="#172033" />
+              <polygon points="272.0,235.8 285.5,242.6 272.0,249.4 258.5,242.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:258.5px 260.2px; animation-delay:6.36s">
+              <polygon points="245.0,249.4 258.5,256.2 258.5,260.2 245.0,253.4" fill="#0f172a" />
+              <polygon points="258.5,256.2 272.0,249.4 272.0,253.4 258.5,260.2" fill="#172033" />
+              <polygon points="258.5,242.6 272.0,249.4 258.5,256.2 245.0,249.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:353.0px 226.2px; animation-delay:6.24s">
+              <polygon points="339.5,215.4 353.0,222.2 353.0,226.2 339.5,219.4" fill="#0f172a" />
+              <polygon points="353.0,222.2 366.5,215.4 366.5,219.4 353.0,226.2" fill="#172033" />
+              <polygon points="353.0,208.6 366.5,215.4 353.0,222.2 339.5,215.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:339.5px 233.0px; animation-delay:6.27s">
+              <polygon points="326.0,222.2 339.5,229.0 339.5,233.0 326.0,226.2" fill="#0f172a" />
+              <polygon points="339.5,229.0 353.0,222.2 353.0,226.2 339.5,233.0" fill="#172033" />
+              <polygon points="339.5,215.4 353.0,222.2 339.5,229.0 326.0,222.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:326.0px 239.8px; animation-delay:6.3s">
+              <polygon points="312.5,229.0 326.0,235.8 326.0,239.8 312.5,233.0" fill="#0f172a" />
+              <polygon points="326.0,235.8 339.5,229.0 339.5,233.0 326.0,239.8" fill="#172033" />
+              <polygon points="326.0,222.2 339.5,229.0 326.0,235.8 312.5,229.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:312.5px 246.6px; animation-delay:6.33s">
+              <polygon points="299.0,235.8 312.5,242.6 312.5,246.6 299.0,239.8" fill="#0f172a" />
+              <polygon points="312.5,242.6 326.0,235.8 326.0,239.8 312.5,246.6" fill="#172033" />
+              <polygon points="312.5,229.0 326.0,235.8 312.5,242.6 299.0,235.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:299.0px 253.4px; animation-delay:6.36s">
+              <polygon points="285.5,242.6 299.0,249.4 299.0,253.4 285.5,246.6" fill="#0f172a" />
+              <polygon points="299.0,249.4 312.5,242.6 312.5,246.6 299.0,253.4" fill="#172033" />
+              <polygon points="299.0,235.8 312.5,242.6 299.0,249.4 285.5,242.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:285.5px 260.2px; animation-delay:6.39s">
+              <polygon points="272.0,249.4 285.5,256.2 285.5,260.2 272.0,253.4" fill="#0f172a" />
+              <polygon points="285.5,256.2 299.0,249.4 299.0,253.4 285.5,260.2" fill="#172033" />
+              <polygon points="285.5,242.6 299.0,249.4 285.5,256.2 272.0,249.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:272.0px 267.0px; animation-delay:6.42s">
+              <polygon points="258.5,256.2 272.0,263.0 272.0,267.0 258.5,260.2" fill="#0f172a" />
+              <polygon points="272.0,263.0 285.5,256.2 285.5,260.2 272.0,267.0" fill="#172033" />
+              <polygon points="272.0,249.4 285.5,256.2 272.0,263.0 258.5,256.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:366.5px 233.0px; animation-delay:6.29s">
+              <polygon points="353.0,222.2 366.5,229.0 366.5,233.0 353.0,226.2" fill="#0f172a" />
+              <polygon points="366.5,229.0 380.0,222.2 380.0,226.2 366.5,233.0" fill="#172033" />
+              <polygon points="366.5,215.4 380.0,222.2 366.5,229.0 353.0,222.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:353.0px 239.8px; animation-delay:6.33s">
+              <polygon points="339.5,229.0 353.0,235.8 353.0,239.8 339.5,233.0" fill="#0f172a" />
+              <polygon points="353.0,235.8 366.5,229.0 366.5,233.0 353.0,239.8" fill="#172033" />
+              <polygon points="353.0,222.2 366.5,229.0 353.0,235.8 339.5,229.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:339.5px 246.6px; animation-delay:6.35s">
+              <polygon points="326.0,235.8 339.5,242.6 339.5,246.6 326.0,239.8" fill="#0f172a" />
+              <polygon points="339.5,242.6 353.0,235.8 353.0,239.8 339.5,246.6" fill="#172033" />
+              <polygon points="339.5,229.0 353.0,235.8 339.5,242.6 326.0,235.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:326.0px 253.4px; animation-delay:6.38s">
+              <polygon points="312.5,242.6 326.0,249.4 326.0,253.4 312.5,246.6" fill="#0f172a" />
+              <polygon points="326.0,249.4 339.5,242.6 339.5,246.6 326.0,253.4" fill="#172033" />
+              <polygon points="326.0,235.8 339.5,242.6 326.0,249.4 312.5,242.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:312.5px 260.2px; animation-delay:6.42s">
+              <polygon points="299.0,238.9 312.5,245.7 312.5,260.2 299.0,253.4" fill="#0284c7" />
+              <polygon points="312.5,245.7 326.0,238.9 326.0,253.4 312.5,260.2" fill="#0369a1" />
+              <polygon points="312.5,232.1 326.0,238.9 312.5,245.7 299.0,238.9" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:299.0px 267.0px; animation-delay:6.45s">
+              <polygon points="285.5,256.2 299.0,263.0 299.0,267.0 285.5,260.2" fill="#0f172a" />
+              <polygon points="299.0,263.0 312.5,256.2 312.5,260.2 299.0,267.0" fill="#172033" />
+              <polygon points="299.0,249.4 312.5,256.2 299.0,263.0 285.5,256.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:285.5px 273.8px; animation-delay:6.47s">
+              <polygon points="272.0,263.0 285.5,269.8 285.5,273.8 272.0,267.0" fill="#0f172a" />
+              <polygon points="285.5,269.8 299.0,263.0 299.0,267.0 285.5,273.8" fill="#172033" />
+              <polygon points="285.5,256.2 299.0,263.0 285.5,269.8 272.0,263.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:380.0px 239.8px; animation-delay:6.35s">
+              <polygon points="366.5,229.0 380.0,235.8 380.0,239.8 366.5,233.0" fill="#0f172a" />
+              <polygon points="380.0,235.8 393.5,229.0 393.5,233.0 380.0,239.8" fill="#172033" />
+              <polygon points="380.0,222.2 393.5,229.0 380.0,235.8 366.5,229.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:366.5px 246.6px; animation-delay:6.38s">
+              <polygon points="353.0,235.8 366.5,242.6 366.5,246.6 353.0,239.8" fill="#0f172a" />
+              <polygon points="366.5,242.6 380.0,235.8 380.0,239.8 366.5,246.6" fill="#172033" />
+              <polygon points="366.5,229.0 380.0,235.8 366.5,242.6 353.0,235.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:353.0px 253.4px; animation-delay:6.41s">
+              <polygon points="339.5,242.6 353.0,249.4 353.0,253.4 339.5,246.6" fill="#0f172a" />
+              <polygon points="353.0,249.4 366.5,242.6 366.5,246.6 353.0,253.4" fill="#172033" />
+              <polygon points="353.0,235.8 366.5,242.6 353.0,249.4 339.5,242.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:339.5px 260.2px; animation-delay:6.44s">
+              <polygon points="326.0,249.4 339.5,256.2 339.5,260.2 326.0,253.4" fill="#0f172a" />
+              <polygon points="339.5,256.2 353.0,249.4 353.0,253.4 339.5,260.2" fill="#172033" />
+              <polygon points="339.5,242.6 353.0,249.4 339.5,256.2 326.0,249.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:326.0px 267.0px; animation-delay:6.47s">
+              <polygon points="312.5,256.2 326.0,263.0 326.0,267.0 312.5,260.2" fill="#0f172a" />
+              <polygon points="326.0,263.0 339.5,256.2 339.5,260.2 326.0,267.0" fill="#172033" />
+              <polygon points="326.0,249.4 339.5,256.2 326.0,263.0 312.5,256.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:312.5px 273.8px; animation-delay:6.5s">
+              <polygon points="299.0,243.5 312.5,250.3 312.5,273.8 299.0,267.0" fill="#0284c7" />
+              <polygon points="312.5,250.3 326.0,243.5 326.0,267.0 312.5,273.8" fill="#0369a1" />
+              <polygon points="312.5,236.7 326.0,243.5 312.5,250.3 299.0,243.5" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:299.0px 280.6px; animation-delay:6.53s">
+              <polygon points="285.5,269.8 299.0,276.6 299.0,280.6 285.5,273.8" fill="#0f172a" />
+              <polygon points="299.0,276.6 312.5,269.8 312.5,273.8 299.0,280.6" fill="#172033" />
+              <polygon points="299.0,263.0 312.5,269.8 299.0,276.6 285.5,269.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:393.5px 246.6px; animation-delay:6.4s">
+              <polygon points="380.0,235.8 393.5,242.6 393.5,246.6 380.0,239.8" fill="#0f172a" />
+              <polygon points="393.5,242.6 407.0,235.8 407.0,239.8 393.5,246.6" fill="#172033" />
+              <polygon points="393.5,229.0 407.0,235.8 393.5,242.6 380.0,235.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:380.0px 253.4px; animation-delay:6.43s">
+              <polygon points="366.5,242.6 380.0,249.4 380.0,253.4 366.5,246.6" fill="#0f172a" />
+              <polygon points="380.0,249.4 393.5,242.6 393.5,246.6 380.0,253.4" fill="#172033" />
+              <polygon points="380.0,235.8 393.5,242.6 380.0,249.4 366.5,242.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:366.5px 260.2px; animation-delay:6.46s">
+              <polygon points="353.0,234.4 366.5,241.2 366.5,260.2 353.0,253.4" fill="#0284c7" />
+              <polygon points="366.5,241.2 380.0,234.4 380.0,253.4 366.5,260.2" fill="#0369a1" />
+              <polygon points="366.5,227.6 380.0,234.4 366.5,241.2 353.0,234.4" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:353.0px 267.0px; animation-delay:6.49s">
+              <polygon points="339.5,236.7 353.0,243.5 353.0,267.0 339.5,260.2" fill="#0284c7" />
+              <polygon points="353.0,243.5 366.5,236.7 366.5,260.2 353.0,267.0" fill="#0369a1" />
+              <polygon points="353.0,229.9 366.5,236.7 353.0,243.5 339.5,236.7" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:339.5px 273.8px; animation-delay:6.52s">
+              <polygon points="326.0,263.0 339.5,269.8 339.5,273.8 326.0,267.0" fill="#0f172a" />
+              <polygon points="339.5,269.8 353.0,263.0 353.0,267.0 339.5,273.8" fill="#172033" />
+              <polygon points="339.5,256.2 353.0,263.0 339.5,269.8 326.0,263.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:326.0px 280.6px; animation-delay:6.55s">
+              <polygon points="312.5,254.8 326.0,261.6 326.0,280.6 312.5,273.8" fill="#0284c7" />
+              <polygon points="326.0,261.6 339.5,254.8 339.5,273.8 326.0,280.6" fill="#0369a1" />
+              <polygon points="326.0,248.0 339.5,254.8 326.0,261.6 312.5,254.8" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:312.5px 287.4px; animation-delay:6.58s">
+              <polygon points="299.0,207.6 312.5,214.4 312.5,287.4 299.0,280.6" fill="#38bdf8" />
+              <polygon points="312.5,214.4 326.0,207.6 326.0,280.6 312.5,287.4" fill="#0ea5e9" />
+              <polygon points="312.5,200.8 326.0,207.6 312.5,214.4 299.0,207.6" fill="#e0f2fe" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:407.0px 253.4px; animation-delay:6.46s">
+              <polygon points="393.5,242.6 407.0,249.4 407.0,253.4 393.5,246.6" fill="#0f172a" />
+              <polygon points="407.0,249.4 420.5,242.6 420.5,246.6 407.0,253.4" fill="#172033" />
+              <polygon points="407.0,235.8 420.5,242.6 407.0,249.4 393.5,242.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:393.5px 260.2px; animation-delay:6.49s">
+              <polygon points="380.0,249.4 393.5,256.2 393.5,260.2 380.0,253.4" fill="#0f172a" />
+              <polygon points="393.5,256.2 407.0,249.4 407.0,253.4 393.5,260.2" fill="#172033" />
+              <polygon points="393.5,242.6 407.0,249.4 393.5,256.2 380.0,249.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:380.0px 267.0px; animation-delay:6.52s">
+              <polygon points="366.5,256.2 380.0,263.0 380.0,267.0 366.5,260.2" fill="#0f172a" />
+              <polygon points="380.0,263.0 393.5,256.2 393.5,260.2 380.0,267.0" fill="#172033" />
+              <polygon points="380.0,249.4 393.5,256.2 380.0,263.0 366.5,256.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:366.5px 273.8px; animation-delay:6.55s">
+              <polygon points="353.0,263.0 366.5,269.8 366.5,273.8 353.0,267.0" fill="#0f172a" />
+              <polygon points="366.5,269.8 380.0,263.0 380.0,267.0 366.5,273.8" fill="#172033" />
+              <polygon points="366.5,256.2 380.0,263.0 366.5,269.8 353.0,263.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:353.0px 280.6px; animation-delay:6.58s">
+              <polygon points="339.5,269.8 353.0,276.6 353.0,280.6 339.5,273.8" fill="#0f172a" />
+              <polygon points="353.0,276.6 366.5,269.8 366.5,273.8 353.0,280.6" fill="#172033" />
+              <polygon points="353.0,263.0 366.5,269.8 353.0,276.6 339.5,269.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:339.5px 287.4px; animation-delay:6.61s">
+              <polygon points="326.0,276.6 339.5,283.4 339.5,287.4 326.0,280.6" fill="#0f172a" />
+              <polygon points="339.5,283.4 353.0,276.6 353.0,280.6 339.5,287.4" fill="#172033" />
+              <polygon points="339.5,269.8 353.0,276.6 339.5,283.4 326.0,276.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:326.0px 294.2px; animation-delay:6.64s">
+              <polygon points="312.5,283.4 326.0,290.2 326.0,294.2 312.5,287.4" fill="#0f172a" />
+              <polygon points="326.0,290.2 339.5,283.4 339.5,287.4 326.0,294.2" fill="#172033" />
+              <polygon points="326.0,276.6 339.5,283.4 326.0,290.2 312.5,283.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:420.5px 260.2px; animation-delay:6.51s">
+              <polygon points="407.0,249.4 420.5,256.2 420.5,260.2 407.0,253.4" fill="#0f172a" />
+              <polygon points="420.5,256.2 434.0,249.4 434.0,253.4 420.5,260.2" fill="#172033" />
+              <polygon points="420.5,242.6 434.0,249.4 420.5,256.2 407.0,249.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:407.0px 267.0px; animation-delay:6.54s">
+              <polygon points="393.5,236.7 407.0,243.5 407.0,267.0 393.5,260.2" fill="#0284c7" />
+              <polygon points="407.0,243.5 420.5,236.7 420.5,260.2 407.0,267.0" fill="#0369a1" />
+              <polygon points="407.0,229.9 420.5,236.7 407.0,243.5 393.5,236.7" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:393.5px 273.8px; animation-delay:6.57s">
+              <polygon points="380.0,252.5 393.5,259.3 393.5,273.8 380.0,267.0" fill="#0284c7" />
+              <polygon points="393.5,259.3 407.0,252.5 407.0,267.0 393.5,273.8" fill="#0369a1" />
+              <polygon points="393.5,245.7 407.0,252.5 393.5,259.3 380.0,252.5" fill="#38bdf8" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:380.0px 280.6px; animation-delay:6.6s">
+              <polygon points="366.5,269.8 380.0,276.6 380.0,280.6 366.5,273.8" fill="#0f172a" />
+              <polygon points="380.0,276.6 393.5,269.8 393.5,273.8 380.0,280.6" fill="#172033" />
+              <polygon points="380.0,263.0 393.5,269.8 380.0,276.6 366.5,269.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:366.5px 287.4px; animation-delay:6.63s">
+              <polygon points="353.0,276.6 366.5,283.4 366.5,287.4 353.0,280.6" fill="#0f172a" />
+              <polygon points="366.5,283.4 380.0,276.6 380.0,280.6 366.5,287.4" fill="#172033" />
+              <polygon points="366.5,269.8 380.0,276.6 366.5,283.4 353.0,276.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:353.0px 294.2px; animation-delay:6.67s">
+              <polygon points="339.5,283.4 353.0,290.2 353.0,294.2 339.5,287.4" fill="#0f172a" />
+              <polygon points="353.0,290.2 366.5,283.4 366.5,287.4 353.0,294.2" fill="#172033" />
+              <polygon points="353.0,276.6 366.5,283.4 353.0,290.2 339.5,283.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:339.5px 301.0px; animation-delay:6.69s">
+              <polygon points="326.0,290.2 339.5,297.0 339.5,301.0 326.0,294.2" fill="#0f172a" />
+              <polygon points="339.5,297.0 353.0,290.2 353.0,294.2 339.5,301.0" fill="#172033" />
+              <polygon points="339.5,283.4 353.0,290.2 339.5,297.0 326.0,290.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:434.0px 267.0px; animation-delay:6.57s">
+              <polygon points="420.5,256.2 434.0,263.0 434.0,267.0 420.5,260.2" fill="#0f172a" />
+              <polygon points="434.0,263.0 447.5,256.2 447.5,260.2 434.0,267.0" fill="#172033" />
+              <polygon points="434.0,249.4 447.5,256.2 434.0,263.0 420.5,256.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:420.5px 273.8px; animation-delay:6.6s">
+              <polygon points="407.0,263.0 420.5,269.8 420.5,273.8 407.0,267.0" fill="#0f172a" />
+              <polygon points="420.5,269.8 434.0,263.0 434.0,267.0 420.5,273.8" fill="#172033" />
+              <polygon points="420.5,256.2 434.0,263.0 420.5,269.8 407.0,263.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:407.0px 280.6px; animation-delay:6.63s">
+              <polygon points="393.5,269.8 407.0,276.6 407.0,280.6 393.5,273.8" fill="#0f172a" />
+              <polygon points="407.0,276.6 420.5,269.8 420.5,273.8 407.0,280.6" fill="#172033" />
+              <polygon points="407.0,263.0 420.5,269.8 407.0,276.6 393.5,269.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:393.5px 287.4px; animation-delay:6.66s">
+              <polygon points="380.0,276.6 393.5,283.4 393.5,287.4 380.0,280.6" fill="#0f172a" />
+              <polygon points="393.5,283.4 407.0,276.6 407.0,280.6 393.5,287.4" fill="#172033" />
+              <polygon points="393.5,269.8 407.0,276.6 393.5,283.4 380.0,276.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:380.0px 294.2px; animation-delay:6.69s">
+              <polygon points="366.5,283.4 380.0,290.2 380.0,294.2 366.5,287.4" fill="#0f172a" />
+              <polygon points="380.0,290.2 393.5,283.4 393.5,287.4 380.0,294.2" fill="#172033" />
+              <polygon points="380.0,276.6 393.5,283.4 380.0,290.2 366.5,283.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:366.5px 301.0px; animation-delay:6.72s">
+              <polygon points="353.0,290.2 366.5,297.0 366.5,301.0 353.0,294.2" fill="#0f172a" />
+              <polygon points="366.5,297.0 380.0,290.2 380.0,294.2 366.5,301.0" fill="#172033" />
+              <polygon points="366.5,283.4 380.0,290.2 366.5,297.0 353.0,290.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:353.0px 307.8px; animation-delay:6.75s">
+              <polygon points="339.5,297.0 353.0,303.8 353.0,307.8 339.5,301.0" fill="#0f172a" />
+              <polygon points="353.0,303.8 366.5,297.0 366.5,301.0 353.0,307.8" fill="#172033" />
+              <polygon points="353.0,290.2 366.5,297.0 353.0,303.8 339.5,297.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:447.5px 273.8px; animation-delay:6.62s">
+              <polygon points="434.0,263.0 447.5,269.8 447.5,273.8 434.0,267.0" fill="#0f172a" />
+              <polygon points="447.5,269.8 461.0,263.0 461.0,267.0 447.5,273.8" fill="#172033" />
+              <polygon points="447.5,256.2 461.0,263.0 447.5,269.8 434.0,263.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:434.0px 280.6px; animation-delay:6.66s">
+              <polygon points="420.5,269.8 434.0,276.6 434.0,280.6 420.5,273.8" fill="#0f172a" />
+              <polygon points="434.0,276.6 447.5,269.8 447.5,273.8 434.0,280.6" fill="#172033" />
+              <polygon points="434.0,263.0 447.5,269.8 434.0,276.6 420.5,269.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:420.5px 287.4px; animation-delay:6.68s">
+              <polygon points="407.0,276.6 420.5,283.4 420.5,287.4 407.0,280.6" fill="#0f172a" />
+              <polygon points="420.5,283.4 434.0,276.6 434.0,280.6 420.5,287.4" fill="#172033" />
+              <polygon points="420.5,269.8 434.0,276.6 420.5,283.4 407.0,276.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:407.0px 294.2px; animation-delay:6.71s">
+              <polygon points="393.5,283.4 407.0,290.2 407.0,294.2 393.5,287.4" fill="#0f172a" />
+              <polygon points="407.0,290.2 420.5,283.4 420.5,287.4 407.0,294.2" fill="#172033" />
+              <polygon points="407.0,276.6 420.5,283.4 407.0,290.2 393.5,283.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:393.5px 301.0px; animation-delay:6.75s">
+              <polygon points="380.0,290.2 393.5,297.0 393.5,301.0 380.0,294.2" fill="#0f172a" />
+              <polygon points="393.5,297.0 407.0,290.2 407.0,294.2 393.5,301.0" fill="#172033" />
+              <polygon points="393.5,283.4 407.0,290.2 393.5,297.0 380.0,290.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:380.0px 307.8px; animation-delay:6.78s">
+              <polygon points="366.5,297.0 380.0,303.8 380.0,307.8 366.5,301.0" fill="#0f172a" />
+              <polygon points="380.0,303.8 393.5,297.0 393.5,301.0 380.0,307.8" fill="#172033" />
+              <polygon points="380.0,290.2 393.5,297.0 380.0,303.8 366.5,297.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:366.5px 314.6px; animation-delay:6.8s">
+              <polygon points="353.0,303.8 366.5,310.6 366.5,314.6 353.0,307.8" fill="#0f172a" />
+              <polygon points="366.5,310.6 380.0,303.8 380.0,307.8 366.5,314.6" fill="#172033" />
+              <polygon points="366.5,297.0 380.0,303.8 366.5,310.6 353.0,303.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:461.0px 280.6px; animation-delay:6.68s">
+              <polygon points="447.5,269.8 461.0,276.6 461.0,280.6 447.5,273.8" fill="#0f172a" />
+              <polygon points="461.0,276.6 474.5,269.8 474.5,273.8 461.0,280.6" fill="#172033" />
+              <polygon points="461.0,263.0 474.5,269.8 461.0,276.6 447.5,269.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:447.5px 287.4px; animation-delay:6.71s">
+              <polygon points="434.0,276.6 447.5,283.4 447.5,287.4 434.0,280.6" fill="#0f172a" />
+              <polygon points="447.5,283.4 461.0,276.6 461.0,280.6 447.5,287.4" fill="#172033" />
+              <polygon points="447.5,269.8 461.0,276.6 447.5,283.4 434.0,276.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:434.0px 294.2px; animation-delay:6.74s">
+              <polygon points="420.5,283.4 434.0,290.2 434.0,294.2 420.5,287.4" fill="#0f172a" />
+              <polygon points="434.0,290.2 447.5,283.4 447.5,287.4 434.0,294.2" fill="#172033" />
+              <polygon points="434.0,276.6 447.5,283.4 434.0,290.2 420.5,283.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:420.5px 301.0px; animation-delay:6.77s">
+              <polygon points="407.0,290.2 420.5,297.0 420.5,301.0 407.0,294.2" fill="#0f172a" />
+              <polygon points="420.5,297.0 434.0,290.2 434.0,294.2 420.5,301.0" fill="#172033" />
+              <polygon points="420.5,283.4 434.0,290.2 420.5,297.0 407.0,290.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:407.0px 307.8px; animation-delay:6.8s">
+              <polygon points="393.5,297.0 407.0,303.8 407.0,307.8 393.5,301.0" fill="#0f172a" />
+              <polygon points="407.0,303.8 420.5,297.0 420.5,301.0 407.0,307.8" fill="#172033" />
+              <polygon points="407.0,290.2 420.5,297.0 407.0,303.8 393.5,297.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:393.5px 314.6px; animation-delay:6.83s">
+              <polygon points="380.0,303.8 393.5,310.6 393.5,314.6 380.0,307.8" fill="#0f172a" />
+              <polygon points="393.5,310.6 407.0,303.8 407.0,307.8 393.5,314.6" fill="#172033" />
+              <polygon points="393.5,297.0 407.0,303.8 393.5,310.6 380.0,303.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:380.0px 321.4px; animation-delay:6.86s">
+              <polygon points="366.5,310.6 380.0,317.4 380.0,321.4 366.5,314.6" fill="#0f172a" />
+              <polygon points="380.0,317.4 393.5,310.6 393.5,314.6 380.0,321.4" fill="#172033" />
+              <polygon points="380.0,303.8 393.5,310.6 380.0,317.4 366.5,310.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:474.5px 287.4px; animation-delay:6.73s">
+              <polygon points="461.0,276.6 474.5,283.4 474.5,287.4 461.0,280.6" fill="#0f172a" />
+              <polygon points="474.5,283.4 488.0,276.6 488.0,280.6 474.5,287.4" fill="#172033" />
+              <polygon points="474.5,269.8 488.0,276.6 474.5,283.4 461.0,276.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:461.0px 294.2px; animation-delay:6.76s">
+              <polygon points="447.5,283.4 461.0,290.2 461.0,294.2 447.5,287.4" fill="#0f172a" />
+              <polygon points="461.0,290.2 474.5,283.4 474.5,287.4 461.0,294.2" fill="#172033" />
+              <polygon points="461.0,276.6 474.5,283.4 461.0,290.2 447.5,283.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:447.5px 301.0px; animation-delay:6.79s">
+              <polygon points="434.0,290.2 447.5,297.0 447.5,301.0 434.0,294.2" fill="#0f172a" />
+              <polygon points="447.5,297.0 461.0,290.2 461.0,294.2 447.5,301.0" fill="#172033" />
+              <polygon points="447.5,283.4 461.0,290.2 447.5,297.0 434.0,290.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:434.0px 307.8px; animation-delay:6.82s">
+              <polygon points="420.5,297.0 434.0,303.8 434.0,307.8 420.5,301.0" fill="#0f172a" />
+              <polygon points="434.0,303.8 447.5,297.0 447.5,301.0 434.0,307.8" fill="#172033" />
+              <polygon points="434.0,290.2 447.5,297.0 434.0,303.8 420.5,297.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:420.5px 314.6px; animation-delay:6.85s">
+              <polygon points="407.0,303.8 420.5,310.6 420.5,314.6 407.0,307.8" fill="#0f172a" />
+              <polygon points="420.5,310.6 434.0,303.8 434.0,307.8 420.5,314.6" fill="#172033" />
+              <polygon points="420.5,297.0 434.0,303.8 420.5,310.6 407.0,303.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:407.0px 321.4px; animation-delay:6.88s">
+              <polygon points="393.5,310.6 407.0,317.4 407.0,321.4 393.5,314.6" fill="#0f172a" />
+              <polygon points="407.0,317.4 420.5,310.6 420.5,314.6 407.0,321.4" fill="#172033" />
+              <polygon points="407.0,303.8 420.5,310.6 407.0,317.4 393.5,310.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:393.5px 328.2px; animation-delay:6.91s">
+              <polygon points="380.0,317.4 393.5,324.2 393.5,328.2 380.0,321.4" fill="#0f172a" />
+              <polygon points="393.5,324.2 407.0,317.4 407.0,321.4 393.5,328.2" fill="#172033" />
+              <polygon points="393.5,310.6 407.0,317.4 393.5,324.2 380.0,317.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:488.0px 294.2px; animation-delay:6.79s">
+              <polygon points="474.5,283.4 488.0,290.2 488.0,294.2 474.5,287.4" fill="#0f172a" />
+              <polygon points="488.0,290.2 501.5,283.4 501.5,287.4 488.0,294.2" fill="#172033" />
+              <polygon points="488.0,276.6 501.5,283.4 488.0,290.2 474.5,283.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:474.5px 301.0px; animation-delay:6.82s">
+              <polygon points="461.0,290.2 474.5,297.0 474.5,301.0 461.0,294.2" fill="#0f172a" />
+              <polygon points="474.5,297.0 488.0,290.2 488.0,294.2 474.5,301.0" fill="#172033" />
+              <polygon points="474.5,283.4 488.0,290.2 474.5,297.0 461.0,290.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:461.0px 307.8px; animation-delay:6.85s">
+              <polygon points="447.5,297.0 461.0,303.8 461.0,307.8 447.5,301.0" fill="#0f172a" />
+              <polygon points="461.0,303.8 474.5,297.0 474.5,301.0 461.0,307.8" fill="#172033" />
+              <polygon points="461.0,290.2 474.5,297.0 461.0,303.8 447.5,297.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:447.5px 314.6px; animation-delay:6.88s">
+              <polygon points="434.0,303.8 447.5,310.6 447.5,314.6 434.0,307.8" fill="#0f172a" />
+              <polygon points="447.5,310.6 461.0,303.8 461.0,307.8 447.5,314.6" fill="#172033" />
+              <polygon points="447.5,297.0 461.0,303.8 447.5,310.6 434.0,303.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:434.0px 321.4px; animation-delay:6.91s">
+              <polygon points="420.5,310.6 434.0,317.4 434.0,321.4 420.5,314.6" fill="#0f172a" />
+              <polygon points="434.0,317.4 447.5,310.6 447.5,314.6 434.0,321.4" fill="#172033" />
+              <polygon points="434.0,303.8 447.5,310.6 434.0,317.4 420.5,310.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:420.5px 328.2px; animation-delay:6.94s">
+              <polygon points="407.0,317.4 420.5,324.2 420.5,328.2 407.0,321.4" fill="#0f172a" />
+              <polygon points="420.5,324.2 434.0,317.4 434.0,321.4 420.5,328.2" fill="#172033" />
+              <polygon points="420.5,310.6 434.0,317.4 420.5,324.2 407.0,317.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:407.0px 335.0px; animation-delay:6.97s">
+              <polygon points="393.5,324.2 407.0,331.0 407.0,335.0 393.5,328.2" fill="#0f172a" />
+              <polygon points="407.0,331.0 420.5,324.2 420.5,328.2 407.0,335.0" fill="#172033" />
+              <polygon points="407.0,317.4 420.5,324.2 407.0,331.0 393.5,324.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:501.5px 301.0px; animation-delay:6.84s">
+              <polygon points="488.0,290.2 501.5,297.0 501.5,301.0 488.0,294.2" fill="#0f172a" />
+              <polygon points="501.5,297.0 515.0,290.2 515.0,294.2 501.5,301.0" fill="#172033" />
+              <polygon points="501.5,283.4 515.0,290.2 501.5,297.0 488.0,290.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:488.0px 307.8px; animation-delay:6.88s">
+              <polygon points="474.5,297.0 488.0,303.8 488.0,307.8 474.5,301.0" fill="#0f172a" />
+              <polygon points="488.0,303.8 501.5,297.0 501.5,301.0 488.0,307.8" fill="#172033" />
+              <polygon points="488.0,290.2 501.5,297.0 488.0,303.8 474.5,297.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:474.5px 314.6px; animation-delay:6.9s">
+              <polygon points="461.0,303.8 474.5,310.6 474.5,314.6 461.0,307.8" fill="#0f172a" />
+              <polygon points="474.5,310.6 488.0,303.8 488.0,307.8 474.5,314.6" fill="#172033" />
+              <polygon points="474.5,297.0 488.0,303.8 474.5,310.6 461.0,303.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:461.0px 321.4px; animation-delay:6.93s">
+              <polygon points="447.5,310.6 461.0,317.4 461.0,321.4 447.5,314.6" fill="#0f172a" />
+              <polygon points="461.0,317.4 474.5,310.6 474.5,314.6 461.0,321.4" fill="#172033" />
+              <polygon points="461.0,303.8 474.5,310.6 461.0,317.4 447.5,310.6" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:447.5px 328.2px; animation-delay:6.96s">
+              <polygon points="434.0,317.4 447.5,324.2 447.5,328.2 434.0,321.4" fill="#0f172a" />
+              <polygon points="447.5,324.2 461.0,317.4 461.0,321.4 447.5,328.2" fill="#172033" />
+              <polygon points="447.5,310.6 461.0,317.4 447.5,324.2 434.0,317.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:434.0px 335.0px; animation-delay:7.0s">
+              <polygon points="420.5,324.2 434.0,331.0 434.0,335.0 420.5,328.2" fill="#0f172a" />
+              <polygon points="434.0,331.0 447.5,324.2 447.5,328.2 434.0,335.0" fill="#172033" />
+              <polygon points="434.0,317.4 447.5,324.2 434.0,331.0 420.5,324.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:420.5px 341.8px; animation-delay:7.02s">
+              <polygon points="407.0,331.0 420.5,337.8 420.5,341.8 407.0,335.0" fill="#0f172a" />
+              <polygon points="420.5,337.8 434.0,331.0 434.0,335.0 420.5,341.8" fill="#172033" />
+              <polygon points="420.5,324.2 434.0,331.0 420.5,337.8 407.0,331.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:515.0px 307.8px; animation-delay:6.9s">
+              <polygon points="501.5,297.0 515.0,303.8 515.0,307.8 501.5,301.0" fill="#0f172a" />
+              <polygon points="515.0,303.8 528.5,297.0 528.5,301.0 515.0,307.8" fill="#172033" />
+              <polygon points="515.0,290.2 528.5,297.0 515.0,303.8 501.5,297.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:501.5px 314.6px; animation-delay:6.93s">
+              <polygon points="488.0,303.8 501.5,310.6 501.5,314.6 488.0,307.8" fill="#0f172a" />
+              <polygon points="501.5,310.6 515.0,303.8 515.0,307.8 501.5,314.6" fill="#172033" />
+              <polygon points="501.5,297.0 515.0,303.8 501.5,310.6 488.0,303.8" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:488.0px 321.4px; animation-delay:6.96s">
+              <polygon points="474.5,277.6 488.0,284.4 488.0,321.4 474.5,314.6" fill="#0ea5e9" />
+              <polygon points="488.0,284.4 501.5,277.6 501.5,314.6 488.0,321.4" fill="#0284c7" />
+              <polygon points="488.0,270.8 501.5,277.6 488.0,284.4 474.5,277.6" fill="#7dd3fc" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:474.5px 328.2px; animation-delay:6.99s">
+              <polygon points="461.0,317.4 474.5,324.2 474.5,328.2 461.0,321.4" fill="#0f172a" />
+              <polygon points="474.5,324.2 488.0,317.4 488.0,321.4 474.5,328.2" fill="#172033" />
+              <polygon points="474.5,310.6 488.0,317.4 474.5,324.2 461.0,317.4" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:461.0px 335.0px; animation-delay:7.02s">
+              <polygon points="447.5,324.2 461.0,331.0 461.0,335.0 447.5,328.2" fill="#0f172a" />
+              <polygon points="461.0,331.0 474.5,324.2 474.5,328.2 461.0,335.0" fill="#172033" />
+              <polygon points="461.0,317.4 474.5,324.2 461.0,331.0 447.5,324.2" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:447.5px 341.8px; animation-delay:7.05s">
+              <polygon points="434.0,331.0 447.5,337.8 447.5,341.8 434.0,335.0" fill="#0f172a" />
+              <polygon points="447.5,337.8 461.0,331.0 461.0,335.0 447.5,341.8" fill="#172033" />
+              <polygon points="447.5,324.2 461.0,331.0 447.5,337.8 434.0,331.0" fill="#1e293b" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:434.0px 348.6px; animation-delay:7.08s">
+              <polygon points="420.5,291.3 434.0,298.1 434.0,348.6 420.5,341.8" fill="#0ea5e9" />
+              <polygon points="434.0,298.1 447.5,291.3 447.5,341.8 434.0,348.6" fill="#0284c7" />
+              <polygon points="434.0,284.5 447.5,291.3 434.0,298.1 420.5,291.3" fill="#7dd3fc" />
+            </g>
+            
+            <g class="iso-tower" style="transform-origin:528.5px 314.6px; animation-delay:6.96s">
+              <polygon points="515.0,284.3 528.5,291.1 528.5,314.6 515.0,307.8" fill="#0284c7" />
+              <polygon points="528.5,291.1 542.0,284.3 542.0,307.8 528.5,314.6" fill="#0369a1" />
+              <polygon points="528.5,277.5 542.0,284.3 528.5,291.1 515.0,284.3" fill="#38bdf8" />
+            </g>
+            
+  </g>
+
+  <!-- Right-hand Telemetry Summary Card -->
+  <g class="stat-fade">
+    <rect x="655" y="68" width="218" height="262" rx="8" fill="#070b14" stroke="#172554" stroke-width="1" />
+    <text x="673" y="94" font-family="monospace" font-size="10" font-weight="700" fill="#3b82f6" letter-spacing="1.2">ACTIVITY.METRICS</text>
+    <line x1="673" y1="104" x2="855" y2="104" stroke="#1e293b" stroke-width="1" />
+
+    <text x="673" y="132" font-family="monospace" font-size="11" fill="#64748b">ANNUAL CONTRIBUTIONS</text>
+    <text x="673" y="162" font-family="monospace" font-size="28" font-weight="700" fill="#38bdf8">102</text>
+
+    <text x="673" y="198" font-family="monospace" font-size="11" fill="#64748b">ACTIVE BUILD DAYS (22W)</text>
+    <text x="673" y="226" font-family="monospace" font-size="24" font-weight="700" fill="#f8fafc">24 <tspan font-size="12" fill="#34d399">days</tspan></text>
+
+    <text x="673" y="262" font-family="monospace" font-size="11" fill="#64748b">ELEVATION SCALE</text>
+    <rect x="673" y="274" width="14" height="14" rx="3" fill="#1e293b" />
+    <rect x="693" y="274" width="14" height="14" rx="3" fill="#0284c7" />
+    <rect x="713" y="274" width="14" height="14" rx="3" fill="#38bdf8" />
+    <rect x="733" y="274" width="14" height="14" rx="3" fill="#e0f2fe" />
+    <text x="756" y="285" font-family="monospace" font-size="10" fill="#94a3b8">0 → Peak</text>
+  </g>
+</svg>

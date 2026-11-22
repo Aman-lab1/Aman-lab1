@@ -6,17 +6,17 @@
     .term-cmd { font: 600 12.5px 'JetBrains Mono', 'Fira Code', Consolas, monospace; fill: #38bdf8; }
     .section-tag { font: 700 10px 'JetBrains Mono', Consolas, monospace; fill: #3b82f6; letter-spacing: 1.5px; }
     .ascii-row {
-      font: 700 11.2px 'JetBrains Mono', 'Courier New', monospace;
-      fill: #38bdf8;
+      font: 700 10.6px 'JetBrains Mono', 'Courier New', monospace;
+      fill: #7dd3fc;
       white-space: pre;
       opacity: 0;
-      animation: scanReveal 0.35s ease-out forwards;
+      animation: scanReveal 0.4s ease-out forwards;
     }
     .key-label { font: 500 12px 'JetBrains Mono', Consolas, monospace; fill: #64748b; }
     .val-label { font: 600 12.5px 'JetBrains Mono', Consolas, monospace; }
     .telemetry-row {
       opacity: 0;
-      transform: translateX(8px);
+      transform: translateX(10px);
       animation: rowBoot 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
     .scan-beam {
@@ -25,38 +25,29 @@
     .frame-boot {
       stroke-dasharray: 2600;
       stroke-dashoffset: 2600;
-      animation: drawBorder 1.1s ease-out forwards;
+      animation: drawBorder 1.0s ease-out forwards;
     }
-    .pulse-dot {
-      animation: pulse 2s infinite;
-    }
-    @keyframes drawBorder {
-      to { stroke-dashoffset: 0; }
-    }
+    .pulse-dot { animation: pulse 2s infinite; }
+    @keyframes drawBorder { to { stroke-dashoffset: 0; } }
     @keyframes scanReveal {
-      0% { opacity: 0; fill: #e0f2fe; }
-      60% { opacity: 1; fill: #7dd3fc; }
-      100% { opacity: 0.95; fill: #2563eb; }
+      0% { opacity: 0; fill: #ffffff; }
+      55% { opacity: 1; fill: #bae6fd; }
+      100% { opacity: 1; fill: #7dd3fc; }
     }
-    @keyframes rowBoot {
-      to { opacity: 1; transform: translateX(0); }
-    }
+    @keyframes rowBoot { to { opacity: 1; transform: translateX(0); } }
     @keyframes beamSweep {
       0% { transform: translateY(0px); opacity: 0.95; }
       85% { transform: translateY(320px); opacity: 0.95; }
       100% { transform: translateY(325px); opacity: 0; }
     }
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.35; }
-    }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
   </style>
 
   <defs>
     <linearGradient id="beamGrad" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.35" />
-      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#7dd3fc" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#e0f2fe" stop-opacity="0.95" />
     </linearGradient>
     <clipPath id="avatarClip">
       <rect x="22" y="52" width="365" height="352" rx="8" />
@@ -77,65 +68,65 @@
   <rect x="22" y="52" width="365" height="352" class="panel" />
   <text x="34" y="66" class="section-tag">VISUAL.MAP // AVATAR_MATRIX</text>
   <g clip-path="url(#avatarClip)">
-    <text x="34" y="76.0" class="ascii-row" style="animation-delay:0.45s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text><text x="34" y="89.2" class="ascii-row" style="animation-delay:0.505s">@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@</text><text x="34" y="102.4" class="ascii-row" style="animation-delay:0.56s">@@@%************************************#@@@</text><text x="34" y="115.6" class="ascii-row" style="animation-delay:0.615s">@@@#++++++++++++++++++++++++++++++++++++#@@@</text><text x="34" y="128.8" class="ascii-row" style="animation-delay:0.67s">@@@#+++++++**********************+++++++#@@@</text><text x="34" y="142.0" class="ascii-row" style="animation-delay:0.725s">@@@%************************************#@@@</text><text x="34" y="155.2" class="ascii-row" style="animation-delay:0.78s">@@@%%%%%%%%*+******************+*%%%%%%%%@@@</text><text x="34" y="168.4" class="ascii-row" style="animation-delay:0.835s">@@@@@@@@@@%*+******************+*%@@@@@@@@@@</text><text x="34" y="181.6" class="ascii-row" style="animation-delay:0.89s">@@@@@@@@@@%*+******************+*%@@@@@@@@@@</text><text x="34" y="194.8" class="ascii-row" style="animation-delay:0.945s">@@@%%%%%%%%*+******************+*%%%%%%%%@@@</text><text x="34" y="208.0" class="ascii-row" style="animation-delay:1.0s">@@@%************************************#@@@</text><text x="34" y="221.2" class="ascii-row" style="animation-delay:1.055s">@@@#+++++++**********************+++++++#@@@</text><text x="34" y="234.4" class="ascii-row" style="animation-delay:1.11s">@@@#+++++++********+++++++*******+++++++#@@@</text><text x="34" y="247.6" class="ascii-row" style="animation-delay:1.165s">@@@%************************************#@@@</text><text x="34" y="260.8" class="ascii-row" style="animation-delay:1.22s">@@@%%%%%%%%*+****+#%%%%%%#+****+*%%%%%%%%@@@</text><text x="34" y="274.0" class="ascii-row" style="animation-delay:1.275s">@@@@@@@@@@%*+****+#@@@@@@%+****+*%@@@@@@@@@@</text><text x="34" y="287.2" class="ascii-row" style="animation-delay:1.33s">@@@@@@@@@@%*+****+#@@@@@@%+****+*%@@@@@@@@@@</text><text x="34" y="300.4" class="ascii-row" style="animation-delay:1.385s">@@@%%%%%%%%*+****+#%%%%%%#+****+*%%%%%%%%@@@</text><text x="34" y="313.6" class="ascii-row" style="animation-delay:1.44s">@@@%************************************#@@@</text><text x="34" y="326.8" class="ascii-row" style="animation-delay:1.495s">@@@#+++++++*******++++++++*******+++++++#@@@</text><text x="34" y="340.0" class="ascii-row" style="animation-delay:1.55s">@@@#++++++++++++++++++++++++++++++++++++#@@@</text><text x="34" y="353.2" class="ascii-row" style="animation-delay:1.605s">@@@%************************************#@@@</text><text x="34" y="366.4" class="ascii-row" style="animation-delay:1.66s">@@@%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%@@@</text><text x="34" y="379.6" class="ascii-row" style="animation-delay:1.715s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text x="32" y="78.0" class="ascii-row" style="animation-delay:0.35s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text><text x="32" y="90.2" class="ascii-row" style="animation-delay:0.405s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text><text x="32" y="102.4" class="ascii-row" style="animation-delay:0.46s">@@@@############################################@@@@</text><text x="32" y="114.6" class="ascii-row" style="animation-delay:0.515s">@@@@#******************************************#@@@@</text><text x="32" y="126.8" class="ascii-row" style="animation-delay:0.57s">@@@@#******************************************#@@@@</text><text x="32" y="139.0" class="ascii-row" style="animation-delay:0.625s">@@@@#******************************************#@@@@</text><text x="32" y="151.2" class="ascii-row" style="animation-delay:0.68s">@@@@%########**************************########%@@@@</text><text x="32" y="163.4" class="ascii-row" style="animation-delay:0.735s">@@@@@@@@@@@@@**************************@@@@@@@@@@@@@</text><text x="32" y="175.6" class="ascii-row" style="animation-delay:0.79s">@@@@@@@@@@@@@**************************%@@@@@@@@@@@@</text><text x="32" y="187.8" class="ascii-row" style="animation-delay:0.845s">@@@@@@@@@@@@@**************************@@@@@@@@@@@@@</text><text x="32" y="200.0" class="ascii-row" style="animation-delay:0.9s">@@@@@%%%%%%%%**************************%%%%%%%%@@@@@</text><text x="32" y="212.2" class="ascii-row" style="animation-delay:0.955s">@@@@#******************************************#@@@@</text><text x="32" y="224.4" class="ascii-row" style="animation-delay:1.01s">@@@@#******************************************#@@@@</text><text x="32" y="236.6" class="ascii-row" style="animation-delay:1.065s">@@@@#******************************************#@@@@</text><text x="32" y="248.8" class="ascii-row" style="animation-delay:1.12s">@@@@#******************************************#@@@@</text><text x="32" y="261.0" class="ascii-row" style="animation-delay:1.175s">@@@@%%%%%%%%%********#%%%%%%%%#********%%%%%%%%%@@@@</text><text x="32" y="273.2" class="ascii-row" style="animation-delay:1.23s">@@@@@@@@@@@@@********#@@@@@@@@#********@@@@@@@@@@@@@</text><text x="32" y="285.4" class="ascii-row" style="animation-delay:1.285s">@@@@@@@@@@@@@********#@@@@@@@@#********%@@@@@@@@@@@@</text><text x="32" y="297.6" class="ascii-row" style="animation-delay:1.34s">@@@@@@@@@@@@@********#@@@@@@@@#********@@@@@@@@@@@@@</text><text x="32" y="309.8" class="ascii-row" style="animation-delay:1.395s">@@@@%#%%%%%%#*********%%%%%%%%#********#%%%%%%%%@@@@</text><text x="32" y="322.0" class="ascii-row" style="animation-delay:1.45s">@@@@#******************************************#@@@@</text><text x="32" y="334.2" class="ascii-row" style="animation-delay:1.505s">@@@@#******************************************#@@@@</text><text x="32" y="346.4" class="ascii-row" style="animation-delay:1.56s">@@@@#******************************************#@@@@</text><text x="32" y="358.6" class="ascii-row" style="animation-delay:1.615s">@@@@#*########################################*#@@@@</text><text x="32" y="370.8" class="ascii-row" style="animation-delay:1.67s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text><text x="32" y="383.0" class="ascii-row" style="animation-delay:1.725s">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     <g class="scan-beam">
       <rect x="22" y="52" width="365" height="24" fill="url(#beamGrad)" />
-      <line x1="22" y1="76" x2="387" y2="76" stroke="#7dd3fc" stroke-width="2" />
+      <line x1="22" y1="76" x2="387" y2="76" stroke="#e0f2fe" stroke-width="2" />
     </g>
   </g>
 
   <rect x="399" y="52" width="479" height="352" class="panel" />
   <text x="415" y="66" class="section-tag">SYSTEM.INFO // TELEMETRY</text>
   
-        <g class="telemetry-row" style="animation-delay:0.65s">
+        <g class="telemetry-row" style="animation-delay:0.55s">
           <text x="415" y="96" class="key-label">Subject</text>
           <text x="535" y="96" class="val-label" fill="#f8fafc">Aman Rajpura</text>
           <line x1="415" y1="107" x2="862" y2="107" stroke="#1e293b" stroke-width="1" />
         </g>
         
-        <g class="telemetry-row" style="animation-delay:0.79s">
+        <g class="telemetry-row" style="animation-delay:0.69s">
           <text x="415" y="128" class="key-label">Handle</text>
           <text x="535" y="128" class="val-label" fill="#38bdf8">@aman-lab1</text>
           <line x1="415" y1="139" x2="862" y2="139" stroke="#1e293b" stroke-width="1" />
         </g>
         
-        <g class="telemetry-row" style="animation-delay:0.93s">
+        <g class="telemetry-row" style="animation-delay:0.83s">
           <text x="415" y="160" class="key-label">Discipline</text>
-          <text x="535" y="160" class="val-label" fill="#cbd5e1">B.Tech EEE · Embedded Systems &amp; Edge AI</text>
+          <text x="535" y="160" class="val-label" fill="#e2e8f0">B.Tech EEE · Embedded Systems &amp; Edge AI</text>
           <line x1="415" y1="171" x2="862" y2="171" stroke="#1e293b" stroke-width="1" />
         </g>
         
-        <g class="telemetry-row" style="animation-delay:1.07s">
+        <g class="telemetry-row" style="animation-delay:0.97s">
           <text x="415" y="192" class="key-label">Status</text>
           <text x="535" y="192" class="val-label" fill="#34d399">Building | Prototyping | Shipping</text>
           <line x1="415" y1="203" x2="862" y2="203" stroke="#1e293b" stroke-width="1" />
         </g>
         
-        <g class="telemetry-row" style="animation-delay:1.21s">
+        <g class="telemetry-row" style="animation-delay:1.11s">
           <text x="415" y="224" class="key-label">Core Stack</text>
-          <text x="535" y="224" class="val-label" fill="#93c5fd">JavaScript, TypeScript, CSS, HTML</text>
+          <text x="535" y="224" class="val-label" fill="#bae6fd">JavaScript, TypeScript, CSS, HTML</text>
           <line x1="415" y1="235" x2="862" y2="235" stroke="#1e293b" stroke-width="1" />
         </g>
         
-        <g class="telemetry-row" style="animation-delay:1.35s">
+        <g class="telemetry-row" style="animation-delay:1.25s">
           <text x="415" y="256" class="key-label">Repositories</text>
-          <text x="535" y="256" class="val-label" fill="#e2e8f0">6 public builds</text>
+          <text x="535" y="256" class="val-label" fill="#f1f5f9">6 public builds</text>
           <line x1="415" y1="267" x2="862" y2="267" stroke="#1e293b" stroke-width="1" />
         </g>
         
-        <g class="telemetry-row" style="animation-delay:1.49s">
+        <g class="telemetry-row" style="animation-delay:1.39s">
           <text x="415" y="288" class="key-label">Recognition</text>
-          <text x="535" y="288" class="val-label" fill="#e2e8f0">2 GitHub stars</text>
+          <text x="535" y="288" class="val-label" fill="#f1f5f9">2 GitHub stars</text>
           <line x1="415" y1="299" x2="862" y2="299" stroke="#1e293b" stroke-width="1" />
         </g>
         
-        <g class="telemetry-row" style="animation-delay:1.63s">
+        <g class="telemetry-row" style="animation-delay:1.53s">
           <text x="415" y="320" class="key-label">Lab Node</text>
           <text x="535" y="320" class="val-label" fill="#94a3b8">Ahmedabad University · India</text>
           <line x1="415" y1="331" x2="862" y2="331" stroke="#1e293b" stroke-width="1" />
         </g>
         
-        <g class="telemetry-row" style="animation-delay:1.77s">
+        <g class="telemetry-row" style="animation-delay:1.67s">
           <text x="415" y="352" class="key-label">Endpoint</text>
           <text x="535" y="352" class="val-label" fill="#38bdf8">github.com/Aman-lab1</text>
           <line x1="415" y1="363" x2="862" y2="363" stroke="#1e293b" stroke-width="1" />
