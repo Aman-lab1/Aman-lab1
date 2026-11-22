@@ -7,6 +7,7 @@ import textwrap
 import time
 from datetime import datetime, timedelta, timezone
 import requests
+from collections import deque
 from PIL import Image, ImageEnhance, ImageFilter
 
 USERNAME = os.getenv("GITHUB_USERNAME", "Aman-lab1")
@@ -54,7 +55,7 @@ LANG_SHORT = {
     "Shell": "SH",
 }
 
-ASCII_CHARS = "   ..:-=+*#%@"
+ASCII_CHARS = " .:-=+*#%@"
 
 def fetch_github_data():
     user = requests.get(f"https://api.github.com/users/{USERNAME}", headers=HEADERS, timeout=15).json()
@@ -170,46 +171,71 @@ def fetch_contributions():
     return sum(d["contributionCount"] for wk in weeks for d in wk["contributionDays"]), weeks
 
 
-def avatar_to_ascii(avatar_url, cols=48, rows=26):
-    # Fetch high-res avatar directly (bypassing low-res cached thumbnails)
+def avatar_to_ascii(avatar_url, cols=50, rows=26):
     clean_url = avatar_url.split("?")[0] + "?s=400"
     resp = requests.get(clean_url, timeout=15)
-    img = Image.open(io.BytesIO(resp.content)).convert("L")
-    img = img.resize((cols, rows), Image.Resampling.LANCZOS)
+    rgb = Image.open(io.BytesIO(resp.content)).convert("RGB")
+    rgb = rgb.resize((cols, rows), Image.Resampling.BILINEAR)
 
-    # Detect edges (glasses frames, hair outline, headphones) to keep features sharp
-    edges = img.filter(ImageFilter.FIND_EDGES)
-
-    # Sample border pixels to detect background shade and suppress it to clean space
-    border_vals = [
-        img.getpixel((x, 0)) for x in range(cols)
-    ] + [
-        img.getpixel((0, y)) for y in range(rows)
-    ] + [
-        img.getpixel((cols - 1, y)) for y in range(rows)
+    # Sample corner color to identify the background
+    corners = [
+        rgb.getpixel((1, 1)),
+        rgb.getpixel((cols - 2, 1)),
+        rgb.getpixel((1, rows - 2)),
+        rgb.getpixel((cols - 2, rows - 2)),
     ]
-    bg_level = sum(border_vals) / len(border_vals)
+    bg_r = sum(c[0] for c in corners) / 4.0
+    bg_g = sum(c[1] for c in corners) / 4.0
+    bg_b = sum(c[2] for c in corners) / 4.0
 
-    pixels = list(img.getdata())
-    lo, hi = min(pixels), max(pixels)
-    span = max(hi - lo, 1)
+    def is_bg(x, y):
+        r, g, b = rgb.getpixel((x, y))
+        dist = math.sqrt((r - bg_r) ** 2 + (g - bg_g) ** 2 + (b - bg_b) ** 2)
+        return dist < 26.0
+
+    # Flood-fill from outer border so background is cleared without erasing dark hair/hoodie
+    visited = set()
+    queue = deque()
+    for x in range(cols):
+        for y in (0, rows - 1):
+            if is_bg(x, y):
+                queue.append((x, y))
+                visited.add((x, y))
+    for y in range(rows):
+        for x in (0, cols - 1):
+            if is_bg(x, y) and (x, y) not in visited:
+                queue.append((x, y))
+                visited.add((x, y))
+
+    while queue:
+        cx, cy = queue.popleft()
+        for nx, ny in ((cx + 1, cy), (cx - 1, cy), (cx, cy + 1), (cx, cy - 1)):
+            if 0 <= nx < cols and 0 <= ny < rows and (nx, ny) not in visited:
+                if is_bg(nx, ny):
+                    visited.add((nx, ny))
+                    queue.append((nx, ny))
+
+    gray = rgb.convert("L")
+    edges = gray.filter(ImageFilter.FIND_EDGES)
 
     lines = []
     for y in range(rows):
         row_chars = []
         for x in range(cols):
-            px = img.getpixel((x, y))
-            edge = edges.getpixel((x, y))
-
-            # Clear flat background pixels around the character silhouette
-            if abs(px - bg_level) < 14 and edge < 35:
+            if (x, y) in visited:
                 row_chars.append(" ")
                 continue
 
-            # Normalize tone + add edge definition so glasses & headphones pop
-            norm = (px - lo) / span
-            boosted = min(1.0, max(0.0, norm * 0.82 + (edge / 255.0) * 0.45))
-            idx = int(boosted * (len(ASCII_CHARS) - 1))
+            lum = gray.getpixel((x, y))
+            edge = edges.getpixel((x, y))
+
+            # Map dark outlines (hair, glasses, hoodie, headphones) to strong characters
+            # while keeping skin & headphone highlights distinct
+            dark_ink = (255 - lum) / 255.0
+            edge_boost = (edge / 255.0) * 0.55
+            intensity = min(1.0, max(0.18, dark_ink * 0.85 + edge_boost))
+
+            idx = int(intensity * (len(ASCII_CHARS) - 1))
             row_chars.append(ASCII_CHARS[idx])
         lines.append("".join(row_chars))
     return lines
