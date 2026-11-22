@@ -53,8 +53,7 @@ LANG_SHORT = {
     "Shell": "SH",
 }
 
-ASCII_CHARS = "  ..::--==++**##%%@@"
-
+ASCII_CHARS = "   ..:-=+*#%@"
 
 def fetch_github_data():
     user = requests.get(f"https://api.github.com/users/{USERNAME}", headers=HEADERS, timeout=15).json()
@@ -171,24 +170,48 @@ def fetch_contributions():
 
 
 def avatar_to_ascii(avatar_url, cols=48, rows=26):
-    resp = requests.get(avatar_url, timeout=15)
+    # Fetch high-res avatar directly (bypassing low-res cached thumbnails)
+    clean_url = avatar_url.split("?")[0] + "?s=400"
+    resp = requests.get(clean_url, timeout=15)
     img = Image.open(io.BytesIO(resp.content)).convert("L")
-    img = img.filter(ImageFilter.SHARPEN)
-    img = ImageEnhance.Contrast(img).enhance(1.75)
-    img = ImageEnhance.Brightness(img).enhance(1.12)
     img = img.resize((cols, rows), Image.Resampling.LANCZOS)
+
+    # Detect edges (glasses frames, hair outline, headphones) to keep features sharp
+    edges = img.filter(ImageFilter.FIND_EDGES)
+
+    # Sample border pixels to detect background shade and suppress it to clean space
+    border_vals = [
+        img.getpixel((x, 0)) for x in range(cols)
+    ] + [
+        img.getpixel((0, y)) for y in range(rows)
+    ] + [
+        img.getpixel((cols - 1, y)) for y in range(rows)
+    ]
+    bg_level = sum(border_vals) / len(border_vals)
+
+    pixels = list(img.getdata())
+    lo, hi = min(pixels), max(pixels)
+    span = max(hi - lo, 1)
 
     lines = []
     for y in range(rows):
         row_chars = []
         for x in range(cols):
             px = img.getpixel((x, y))
-            norm = (px / 255.0) ** 0.85
-            idx = int(norm * (len(ASCII_CHARS) - 1))
+            edge = edges.getpixel((x, y))
+
+            # Clear flat background pixels around the character silhouette
+            if abs(px - bg_level) < 14 and edge < 35:
+                row_chars.append(" ")
+                continue
+
+            # Normalize tone + add edge definition so glasses & headphones pop
+            norm = (px - lo) / span
+            boosted = min(1.0, max(0.0, norm * 0.82 + (edge / 255.0) * 0.45))
+            idx = int(boosted * (len(ASCII_CHARS) - 1))
             row_chars.append(ASCII_CHARS[idx])
         lines.append("".join(row_chars))
     return lines
-
 
 def format_time_ago(days):
     if days == 0:
