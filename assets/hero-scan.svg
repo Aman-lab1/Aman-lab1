@@ -104,7 +104,7 @@
         
         <g class="telemetry-row" style="animation-delay:1.53s">
           <text x="405" y="244" class="key-label">Core Stack</text>
-          <text x="520" y="244" class="val-label" fill="#bae6fd">JavaScript, TypeScript, CSS, HTML</text>
+          <text x="520" y="244" class="val-label" fill="#bae6fd">TypeScript, JavaScript, CSS, HTML</text>
           <line x1="405" y1="256" x2="804" y2="256" stroke="#1e293b" stroke-width="1" />
         </g>
         
