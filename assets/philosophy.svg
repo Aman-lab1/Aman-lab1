@@ -1,64 +1,55 @@
-<svg width="900" height="214" viewBox="0 0 900 214" xmlns="http://www.w3.org/2000/svg">
+<svg width="840" height="232" viewBox="0 0 840 232" xmlns="http://www.w3.org/2000/svg">
   <style>
     .type-line {
       clip-path: inset(0 100% 0 0);
-      animation: typingReveal 1.1s steps(48, end) 2.1s forwards;
+      animation: typingReveal 1.3s steps(48, end) 3.2s forwards;
     }
     .typo-col {
       opacity: 0;
-      transform: translateY(12px);
-      animation: riseText 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      transform: translateY(14px);
+      animation: riseText 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
-    .cursor-blink {
-      animation: blink 0.8s infinite;
-    }
-    @keyframes typingReveal {
-      to { clip-path: inset(0 0% 0 0); }
-    }
-    @keyframes riseText {
-      to { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes blink {
-      0%, 49% { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
+    .cursor-blink { animation: blink 0.8s infinite; }
+    @keyframes typingReveal { to { clip-path: inset(0 0% 0 0); } }
+    @keyframes riseText { to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
   </style>
-  <rect width="900" height="214" rx="12" fill="#090d16" />
-  <rect x="6" y="6" width="888" height="202" rx="12" fill="#0b1120" stroke="#1e3a8a" stroke-width="1.2" />
+  <rect width="840" height="232" rx="12" fill="#090d16" />
+  <rect x="5" y="5" width="830" height="222" rx="12" fill="#0b1120" stroke="#1e3a8a" stroke-width="1.4" />
 
-  <text x="24" y="34" font-family="monospace" font-size="11" font-weight="700" fill="#3b82f6" letter-spacing="1.4">ENGINEERING.PHILOSOPHY</text>
-  <text x="225" y="34" font-family="monospace" font-size="11" fill="#64748b">cat ./manifesto.txt</text>
-  <line x1="22" y1="45" x2="878" y2="45" stroke="#1e293b" stroke-width="1" />
+  <text x="22" y="35" font-family="monospace" font-size="12" font-weight="700" fill="#3b82f6" letter-spacing="1.4">ENGINEERING.PHILOSOPHY</text>
+  <text x="235" y="35" font-family="monospace" font-size="12" fill="#64748b">cat ./manifesto.txt</text>
+  <line x1="20" y1="47" x2="820" y2="47" stroke="#1e293b" stroke-width="1" />
 
   <g class="type-line">
-    <text x="24" y="72" font-family="monospace" font-size="13" font-weight="600" fill="#f8fafc">
-      &gt; Bridging low-level electronics, autonomous robotics &amp; local-first software into unified systems.<tspan fill="#38bdf8" class="cursor-blink"> █</tspan>
+    <text x="22" y="78" font-family="monospace" font-size="13.5" font-weight="600" fill="#f8fafc">
+      &gt; Bridging electronics, autonomous robotics &amp; local-first software into unified systems.<tspan fill="#38bdf8" class="cursor-blink"> █</tspan>
     </text>
   </g>
 
   
-        <g class="typo-col" style="animation-delay:2.6s">
-          <rect x="24" y="98" width="272" height="94" rx="8" fill="#070b14" stroke="#172554" stroke-width="1" />
-          <text x="38" y="122" font-family="monospace" font-size="11.5" font-weight="700" fill="#38bdf8">01 // PHYSICAL &amp; EMBEDDED</text>
-          <line x1="38" y1="132" x2="282" y2="132" stroke="#1e293b" stroke-width="1" />
-          <text x="38" y="152" font-family="sans-serif" font-size="11.5" fill="#cbd5e1">ESP32, Arduino, motor control, OOK optical</text>
-          <text x="38" y="170" font-family="sans-serif" font-size="11.5" fill="#94a3b8">transceivers, sensor fusion, KiCad &amp; CAD.</text>
+        <g class="typo-col" style="animation-delay:3.9s">
+          <rect x="20" y="106" width="258" height="106" rx="8" fill="#070b14" stroke="#172554" stroke-width="1.1" />
+          <text x="35" y="133" font-family="monospace" font-size="12" font-weight="700" fill="#38bdf8">01 // PHYSICAL &amp; EMBEDDED</text>
+          <line x1="35" y1="145" x2="263" y2="145" stroke="#1e293b" stroke-width="1" />
+          <text x="35" y="168" font-family="sans-serif" font-size="13" fill="#e2e8f0">ESP32, Arduino, motor control,</text>
+          <text x="35" y="189" font-family="sans-serif" font-size="13" fill="#94a3b8">optical comms, KiCad &amp; CAD.</text>
         </g>
         
-        <g class="typo-col" style="animation-delay:3.0s">
-          <rect x="312" y="98" width="272" height="94" rx="8" fill="#070b14" stroke="#172554" stroke-width="1" />
-          <text x="326" y="122" font-family="monospace" font-size="11.5" font-weight="700" fill="#38bdf8">02 // DETERMINISTIC EDGE AI</text>
-          <line x1="326" y1="132" x2="570" y2="132" stroke="#1e293b" stroke-width="1" />
-          <text x="326" y="152" font-family="sans-serif" font-size="11.5" fill="#cbd5e1">Hybrid local/cloud inference (Ollama + Groq)</text>
-          <text x="326" y="170" font-family="sans-serif" font-size="11.5" fill="#94a3b8">with verified tool-execution pipelines.</text>
+        <g class="typo-col" style="animation-delay:4.4s">
+          <rect x="291" y="106" width="258" height="106" rx="8" fill="#070b14" stroke="#172554" stroke-width="1.1" />
+          <text x="306" y="133" font-family="monospace" font-size="12" font-weight="700" fill="#38bdf8">02 // DETERMINISTIC EDGE AI</text>
+          <line x1="306" y1="145" x2="534" y2="145" stroke="#1e293b" stroke-width="1" />
+          <text x="306" y="168" font-family="sans-serif" font-size="13" fill="#e2e8f0">Hybrid local/cloud inference</text>
+          <text x="306" y="189" font-family="sans-serif" font-size="13" fill="#94a3b8">with verified tool pipelines.</text>
         </g>
         
-        <g class="typo-col" style="animation-delay:3.4s">
-          <rect x="600" y="98" width="272" height="94" rx="8" fill="#070b14" stroke="#172554" stroke-width="1" />
-          <text x="614" y="122" font-family="monospace" font-size="11.5" font-weight="700" fill="#38bdf8">03 // LOCAL-FIRST SOFTWARE</text>
-          <line x1="614" y1="132" x2="858" y2="132" stroke="#1e293b" stroke-width="1" />
-          <text x="614" y="152" font-family="sans-serif" font-size="11.5" fill="#cbd5e1">Offline-capable PWAs with IndexedDB storage,</text>
-          <text x="614" y="170" font-family="sans-serif" font-size="11.5" fill="#94a3b8">zero-server latency &amp; clean interfaces.</text>
+        <g class="typo-col" style="animation-delay:4.9s">
+          <rect x="562" y="106" width="258" height="106" rx="8" fill="#070b14" stroke="#172554" stroke-width="1.1" />
+          <text x="577" y="133" font-family="monospace" font-size="12" font-weight="700" fill="#38bdf8">03 // LOCAL-FIRST SOFTWARE</text>
+          <line x1="577" y1="145" x2="805" y2="145" stroke="#1e293b" stroke-width="1" />
+          <text x="577" y="168" font-family="sans-serif" font-size="13" fill="#e2e8f0">Offline-capable PWAs with</text>
+          <text x="577" y="189" font-family="sans-serif" font-size="13" fill="#94a3b8">IndexedDB &amp; zero latency.</text>
         </g>
         
 </svg>
