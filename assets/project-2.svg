@@ -23,7 +23,7 @@
     <rect x="20" y="118" width="232" height="22" rx="5" fill="#070b14" stroke="#1e3a8a" />
     <text x="30" y="133" font-family="monospace" font-size="11.5" font-weight="600" fill="#7dd3fc">JavaScript · IndexedDB · PWA</text>
 
-    <text x="20" y="162" font-family="monospace" font-size="11.5" fill="#94a3b8">★ 0  ·  12 commits  ·  3d ago</text>
+    <text x="20" y="162" font-family="monospace" font-size="11.5" fill="#94a3b8">★ 0  ·  12 commits  ·  4d ago</text>
 
     <!-- Primary Language Share Gauge -->
     <circle cx="358" cy="88" r="26" fill="#070b14" stroke="#1e293b" stroke-width="5" />
