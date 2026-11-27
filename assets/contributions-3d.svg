@@ -850,6 +850,12 @@
               <polygon points="432.0,339.0 445.8,332.0 445.8,336.0 432.0,343.0" fill="#172033" />
               <polygon points="432.0,325.0 445.8,332.0 432.0,339.0 418.2,332.0" fill="#1e293b" />
             </g>
+            
+            <g class="iso-tower" style="transform-origin:418.2px 350.0px; animation-delay:9.72s">
+              <polygon points="404.4,339.0 418.2,346.0 418.2,350.0 404.4,343.0" fill="#0f172a" />
+              <polygon points="418.2,346.0 432.0,339.0 432.0,343.0 418.2,350.0" fill="#172033" />
+              <polygon points="418.2,332.0 432.0,339.0 418.2,346.0 404.4,339.0" fill="#1e293b" />
+            </g>
             </g>
 
   <g class="stat-fade">
